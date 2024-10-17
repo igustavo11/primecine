@@ -9,14 +9,13 @@ function Header() {
     const [scrolling, setScrolling] = useState(false);
     const location = useLocation();
     const [backgroundImage, setBackgroundImage] = useState(homeImage);
-    const [isImageLoaded, setIsImageLoaded] = useState(true); 
     const [isMenuOpen, setIsMenuOpen] = useState(false);
 
-    const preloadImage = (src) => {
-        return new Promise((resolve) => {
+   
+    const preloadImages = (images) => {
+        images.forEach((src) => {
             const img = new Image();
             img.src = src;
-            img.onload = resolve;
         });
     };
 
@@ -32,6 +31,25 @@ function Header() {
         setIsMenuOpen(false);
     };
 
+
+    useEffect(() => {
+        const imagesToPreload = [homeImage, aboutImage];
+        preloadImages(imagesToPreload);
+    }, []);
+
+    useEffect(() => {
+        const imageMap = {
+            '/': homeImage,
+            '/about': aboutImage,
+            '/team': aboutImage,
+            '/contact': homeImage,
+        };
+
+        const newImage = imageMap[location.pathname] || homeImage;
+
+        setBackgroundImage(newImage);
+    }, [location.pathname]);
+
     useEffect(() => {
         window.addEventListener('scroll', handleScroll);
         return () => {
@@ -39,34 +57,8 @@ function Header() {
         };
     }, []);
 
-    useEffect(() => {
-        let newImage;
-        switch (location.pathname) {
-            case '/':
-                newImage = homeImage;
-                break;
-            case '/about':
-                newImage = aboutImage;
-                break;
-            case '/team':
-                newImage = aboutImage;
-                break;
-            case '/contact':
-                newImage = homeImage;
-                break;
-            default:
-                newImage = homeImage; 
-        }
-
-        setIsImageLoaded(false); 
-        preloadImage(newImage).then(() => {
-            setBackgroundImage(newImage); 
-            setIsImageLoaded(true); 
-        });
-    }, [location.pathname]);
-
     return (
-        <header className={`header ${scrolling ? 'scrolled' : ''} ${isImageLoaded ? 'image-loaded' : ''}`} style={{ backgroundImage: `url(${backgroundImage})` }}>
+        <header className={`header ${scrolling ? 'scrolled' : ''}`} style={{ backgroundImage: `url(${backgroundImage})` }}>
             <nav className={`navbar ${scrolling ? 'scrolled' : ''}`}>
 
             <div className={`nav-links ${isMenuOpen ? 'menu-open' : ''}`}>
@@ -77,17 +69,13 @@ function Header() {
                     <Link className="contact" to="/contact" onClick={closeMenu}>Contact</Link>
                 </div>
 
-
                 <Link className="logo" to="/">Prosperium</Link>
 
-               
                 <div className={`hamburger ${isMenuOpen ? 'open' : ''}`} onClick={toggleMenu}>
                     <span className="bar"></span>
                     <span className="bar"></span>
                     <span className="bar"></span>
                 </div>
-
-            
             </nav>
         </header>
     );
