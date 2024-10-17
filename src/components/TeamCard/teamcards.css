@@ -1,14 +1,14 @@
 .cards{
     margin-top:60px;
     display:block;
-    padding-left: 10rem;
-    padding-right: 10rem;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
 .card-content{
     display:flex;
     justify-content: space-between;
-    gap: 80px;
+    gap: 60px;
     margin-bottom:10rem;
 }
 
@@ -21,14 +21,36 @@ h3{
     border-top: 2px solid #D3D3D3; 
     margin-top: 5px; 
     margin-bottom: 30px;
-    width: 25%;           
+    width: 250px;           
 }
 img{
-    width: 15rem;
+    max-width: auto;
+    max-height: 20rem;
     border-radius: 20px;
 }
 
 p{
     font-size: 16px;
     margin-bottom: 20px;
+}
+
+@media (max-width:991px){
+    .cards{
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+}
+
+@media (max-width:768px){
+    .card-content{
+        display:block;
+    }
+    p{
+        margin-top: 10px;
+    }
+
+    .card-content{
+        margin-bottom: 60px;
+        
+    }
 }
