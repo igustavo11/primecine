@@ -1,64 +1,130 @@
 
-
 .header {
     position: relative;
-    height: 60vh; 
- 
-    background-size: cover; 
-    background-position: center; 
-    background-repeat: no-repeat; 
+    height: 60vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: height 0.3s ease;
 }
+
+@media (max-width: 768px) {
+    .header {
+        height: 40vh;
+       
+    }
+}
+
 
 .navbar {
     display: flex;
-    align-items: center; 
+    align-items: center;
     width: 100%;
-    height: 90px; 
-    position: fixed; 
+    height: 90px;
+    position: fixed;
     top: 0;
     left: 0;
     transition: background-color 0.3s ease;
-    background-color: transparent; 
-    z-index: 10; 
-    padding-left: 20px; 
+    background-color: transparent;
+    z-index: 10;
+    padding-left: 20px;
     justify-content: space-between;
 }
 
 .navbar.scrolled {
-    background-color: green; 
+    background-color: green;
 }
-
 
 .logo {
     text-decoration: none;
     font-size: 30px;
     color: #fff;
     font-weight: bold;
-    margin-right: 20px; 
+    margin-right: 20px;
 }
+
 
 .nav-links {
     display: flex;
     gap: 20px;
+    transition: all 0.3s ease;
 }
 
 .nav-links a {
+    font-size: 16px;
+    color: #fff;
     text-decoration: none;
-    color: #fff; 
+    transition: color 0.3s ease;
 }
 
 .nav-links a:hover {
-    text-decoration: underline;
-    text-align: center; 
+    color: #ff4e42;
 }
 
-.about,
-.team,
-.contact,
-.home {
-    text-decoration: none;
-    cursor: pointer;
-    color: #fff; 
-    font-size: 16px; 
 
+.nav-links.menu-open {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.9);
+    gap: 30px;
+    z-index: 20;
+}
+
+
+.close-menu {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 30px;
+    color: #fff;
+    cursor: pointer;
+    display: none;
+}
+
+.nav-links.menu-open .close-menu {
+    display: block;
+}
+
+
+.hamburger {
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 25px;
+   
+}
+
+.bar {
+    width: 100%;
+    height: 3px;
+    background-color: #fff;
+    transition: 0.3s ease;
+}
+
+
+
+
+@media (max-width: 768px) {
+    .nav-links {
+        display: none;
+    }
+
+    .hamburger {
+        display: flex;
+    }
+
+    .nav-links.menu-open {
+        display: flex;
+    }
+    .nav-links a{
+        font-size: 26px;
+    }
 }
