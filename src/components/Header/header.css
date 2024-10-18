@@ -7,6 +7,25 @@
     background-repeat: no-repeat;
     transition: height 0.3s ease;
 }
+.header.scrolled {
+    background-position: top;
+}
+
+.header.home {
+    background-image: url('../../../src/teste1.jpg');
+}
+
+.header.about {
+    background-image: url('../../../src/teste2.jpg');
+}
+
+.header.team {
+    background-image: url('../../../src/teste2.jpg');
+}
+
+.header.contact {
+    background-image: url('../../../src/teste1.jpg');
+}
 
 @media (max-width: 768px) {
     .header {
