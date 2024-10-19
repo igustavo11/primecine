@@ -64,9 +64,9 @@
 }
 
 .icon img {
-    width: 100%; /* Mudei para 100% */
-    height: auto; /* Mudei para auto */
-    max-width: 350px; /* Limite máximo para telas maiores */
+    width: 100%; 
+    height: auto; 
+    max-width: 350px; 
 }
 
 .content {
@@ -100,12 +100,12 @@
     }
 
     .section {
-        flex-direction: column; /* Mudando para coluna em telas menores */
-        padding: 30px 0; /* Ajuste o padding se necessário */
+        flex-direction: column; 
+        padding: 30px 0; 
     }
 
     .container {
-        gap: 20px; /* Diminui o espaço entre os itens */
+        gap: 20px;
     }
 }
 
@@ -120,10 +120,10 @@
     }
 
     .title {
-        font-size: 24px; /* Ajustando o tamanho do título */
+        font-size: 24px; 
     }
 
     .descriptionHome {
-        font-size: 14px; /* Ajustando o tamanho da descrição */
+        font-size: 14px; 
     }
 }
