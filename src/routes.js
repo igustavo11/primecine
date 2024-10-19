@@ -10,10 +10,13 @@ import Footer from './components/Footer';
 import Erro from './pages/Erro'
 
 
+import ScrollTop from './components/ScrollTop';
+
 function RoutesApp(){
     return(
         <BrowserRouter>
         <Header/>
+        <ScrollTop />
         <Routes>
             <Route path="/" element={ <Home/>}></Route>
             <Route path="/About" element={ <About/> } />
