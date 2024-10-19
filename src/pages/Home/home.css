@@ -1,4 +1,3 @@
-
 .home-container {
     position: absolute;
     top: 0;
@@ -19,13 +18,10 @@
     pointer-events: all; 
 }
 
-
 .home-title {
     font-size: 3rem;
     margin-bottom: 20px;
-   
 }
-
 
 .contactHome {
     display: inline-block;
@@ -46,8 +42,7 @@
     color: white; 
 }
 
-
-.sectionHome{
+.sectionHome {
     text-align: center;
     align-items: center;
     justify-content: center;
@@ -69,9 +64,9 @@
 }
 
 .icon img {
-    width: 350px; 
-    height: 250px;
-   
+    width: 100%; /* Mudei para 100% */
+    height: auto; /* Mudei para auto */
+    max-width: 350px; /* Limite máximo para telas maiores */
 }
 
 .content {
@@ -94,9 +89,6 @@
     line-height: 1.6;
 }
 
-
-
-
 @media (max-width: 768px) {
     .home-title {
         font-size: 2.2rem;
@@ -105,6 +97,15 @@
     .contactHome {
         font-size: 1rem;
         padding: 10px 20px;
+    }
+
+    .section {
+        flex-direction: column; /* Mudando para coluna em telas menores */
+        padding: 30px 0; /* Ajuste o padding se necessário */
+    }
+
+    .container {
+        gap: 20px; /* Diminui o espaço entre os itens */
     }
 }
 
@@ -116,5 +117,13 @@
     .contactHome {
         font-size: 0.9rem;
         padding: 8px 16px;
+    }
+
+    .title {
+        font-size: 24px; /* Ajustando o tamanho do título */
+    }
+
+    .descriptionHome {
+        font-size: 14px; /* Ajustando o tamanho da descrição */
     }
 }
