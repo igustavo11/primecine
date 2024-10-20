@@ -29,13 +29,13 @@ function Header() {
     return (
         <header className={`header ${scrolling ? 'scrolled' : ''} ${location.pathname === '/' ? 'home' : location.pathname.slice(1)}`}>
             <nav className={`navbar ${scrolling ? 'scrolled' : ''}`}>
-                <div className={`nav-links ${isMenuOpen ? 'menu-open' : ''}`}>
+                    <div className={`nav-links ${isMenuOpen ? 'menu-open' : ''}`}>
                     <span className="close-menu" onClick={closeMenu}>X</span>
-                    <Link className="home" to="/" onClick={closeMenu}>Home</Link>
-                    <Link className="about" to="/about" onClick={closeMenu}>About</Link>
-                    <Link className="team" to="/team" onClick={closeMenu}>Team</Link>
-                    <Link className="contact" to="/contact" onClick={closeMenu}>Contact</Link>
-                </div>
+                    <Link className={`home ${location.pathname === '/' ? 'active' : ''}`} to="/" onClick={closeMenu}>Home</Link>
+                    <Link className={`about ${location.pathname === '/about' ? 'active' : ''}`} to="/about" onClick={closeMenu}>About</Link>
+                    <Link className={`team ${location.pathname === '/team' ? 'active' : ''}`} to="/team" onClick={closeMenu}>Team</Link>
+                    <Link className={`contact ${location.pathname === '/contact' ? 'active' : ''}`} to="/contact" onClick={closeMenu}>Contact</Link>
+                    </div>
 
                 <Link className="logo" to="/">Prosperium</Link>
 
