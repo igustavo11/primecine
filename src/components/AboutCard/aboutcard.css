@@ -4,6 +4,8 @@
     gap: 100px; 
     text-align: center; 
     margin-bottom: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
 .aboutcards img{
