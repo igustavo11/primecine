@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom'
 function Home() {
     return (
         <>
-        <div className="home-container">
+        <div className="home-container1">
             <div className="content-center">
                 <h1 className="home-title">Welcome to Prosperium</h1>
                 <Link className="contactHome" to="/contact" >Learn more</Link>

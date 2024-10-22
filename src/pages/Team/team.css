@@ -3,6 +3,30 @@
     padding: 0;
     box-sizing: border-box;
 }
+.home-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 60vh; 
+    display: flex;
+    align-items: center; 
+    z-index: 2;
+    pointer-events: none;
+    padding-left: 20px; 
+}
+
+.content-left {
+    text-align: left; 
+    color: #fff;
+    z-index: 3;
+    pointer-events: all; 
+}
+
+.home-title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
 
 
 

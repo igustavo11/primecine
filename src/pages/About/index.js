@@ -7,9 +7,16 @@ import AboutCard from '../../components/AboutCard';
 function About(){
     return(
         <>
+
+        <div className="home-container">
+                    <div className="content-center">
+                        <h3 className="home-title">Welcome to Prosperium</h3>
+                        <p>aaaafafaafafafafafafafafa</p>
+                    </div>
+                </div>
+
           <section className="transition-paragraph">
-            <p>Shape Equity Partners is a boutique investment firm founded in 2016. We identify, fund and execute efficient real estate development projects. We have consistently demonstrated our ability to identify unique opportunities and successfully execute our strategies in spite of ever-changing market conditions on a local and global scale.</p>
-            <hr/>
+            <h3>Shahpe Equity Partners is a boutique investment firm founded in 2016. We identify, fund and execute efficient real estate development projects. We have consistently demonstrated our ability to identify unique opportunities and successfully execute our strategies in spite of ever-changing market conditions on a local and global scale.</h3>
           </section>
           <AboutCard></AboutCard>
           <section className="description-about">
@@ -19,7 +26,7 @@ function About(){
               <p>We are pioneering a new way of thinking and design with high quality, efficient architecture and materials that maximizes natural light, outdoor space and energy efficiency.<br/>We are at the intersection of technology, climate sensitive real estate and resilient investing. Our proprietary algorithm is unique to the industry, informing our due-diligence process.</p>
             </div>
           </section>
-          <section className='paragraph'>
+          <section className='paragraph2'>
               <h1>Why does this matter?</h1>
               <p>The construction industry plays a significant role on the environment, generating 30% of total greenhouse emissions and utilizing 32% of the world’s natural resources. <br/>We believe that only ESG-sensitive businesses will thrive within the construction industry and can positively impact our environment in the years to come.</p>
           </section>
