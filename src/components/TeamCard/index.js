@@ -5,23 +5,23 @@ function TeamCard(){
     [
         {
             id: 1,
-            name: 'Lorenzo Sargenti',
+            name: 'Jean Nunes',
             position: 'Director & Investment Committee',
-            biograph1: 'Lorenzo Sargenti is the Founder of Shape Equity Partners. With 15+ years of experience, he began his career in consultative and business development roles, focusing on strategic initiatives and development investments. Lorenzo has worked with global clients and industry leaders in developing and executing strategies with an unrelenting focus to achieve positive outcomes for both stakeholders and society.',
-            biograph2: 'Lorenzo began his career in Switzerland in the banking sector, followed by numerous advisory and relationship management roles for the bank’s corporate, institutional and high-net-worth clients. He went on to lead client and market development for RMS in their North America, Latin America and Asia Pacific regions.',  
-            biograph3: 'Lorenzo is a frequent speaker at industry conferences and management retreats, where he discusses topics around growth, climate change, advanced analytics, transformative innovations and human capital. He serves on the board of several early-stage start ups and not-for-profit organizations.',  
-            biograph4: 'Lorenzo is a Harvard Business School Alum (PLD 2018). He also holds a BSc and MSc from the London School of Economics and Political Science. Lorenzo is originally from Switzerland and currently lives in New York City.',
+            biograph1: 'Jean is a seasoned construction expert and visionary entrepreneur, with a rich background in managing large-scale projects and building successful ventures. With over a decade of experience, Jean has honed a unique blend of technical knowledge and strategic vision, allowing for the creation of high-quality, innovative spaces. Jean dedication to excellence and a keen eye for detail have earned him a stellar reputation in the industry.',
+            biograph2: 'As the founder of Força Builders, Jean is committed to pushing the boundaries of construction, integrating cutting-edge techniques with sustainable practices to deliver exceptional results. His forward-thinking approach not only transforms spaces but also creates lucrative opportunities for investors',  
+            biograph3: 'Jean vision for the founding company is to cultivate strong partnerships with investors who share a passion for innovative, profitable developments in the construction industry.',
             photo: 'https://images.squarespace-cdn.com/content/v1/631349e6c645d416c5f05d60/ab940540-5cb9-463f-88d6-c409772dc2ab/Lorenzo+Sargenti+Shape+Equity+Headshot.jpg?format=500w',
 
         },
 
         {
             id: 2,
-            name: 'Mark Hvidsten',
+            name: 'Mario Daminhao',
             position: 'Founder',
-            biograph1: 'Mark has 30+ years of experience in insurance, finance and capital markets. He is an experienced, results-driven, innovative visionary and global leader with significant business and financial acumen, known for pioneering approaches to delivering institutional value. ',
-            biograph2: 'Formerly at Willis Towers Watson where he served as Deputy Chairman of Willis Reinsurance since 2014, holding a number of other executive positions, including Chairman of Willis Reinsurance Alternative Strategies and Director of Strategy & Transformation at Willis Reinsurance.',
-            biograph3: 'Prior to joining Shape, Mark was CEO of Willis Capital markets from 2006 to 2009 and CEO of Willis Analytics from 2001 to 2005.',
+            biograph1: 'Known in the industry as Dr. Mortgage, with 25 years of experience in real estate financing, I am dedicated to helping clients successfully navigate the complexities of real estate investment. ',
+            biograph2: 'As a seasoned mortgage banker and real estate investor, I bring a wealth of expertise and insight to every client relationship, ensuring tailored strategies that align with their investment goals.',
+            biograph3: 'Beyond my professional practice, I am also an accomplished author and keynote speaker at real estate gatherings, sharing my knowledge and passion for real estate development with audiences nationwide. My role as an anchor on a real estate TV show allows me to further educate and inspire others in the industry.',
+            biograph4:'Whether you re new to real estate investment or looking to expand your portfolio, my comprehensive understanding and industry insight can guide you toward achieving your real estate aspirations.',
             photo: 'https://images.squarespace-cdn.com/content/v1/631349e6c645d416c5f05d60/2c66ac29-70e3-4b96-ab3a-ef7f9e311b64/MPE_9500PrintDMDKR.jpg?format=1500w',
 
         },

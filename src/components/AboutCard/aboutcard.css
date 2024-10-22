@@ -3,9 +3,12 @@
     grid-template-columns: repeat(2, 1fr); 
     gap: 100px; 
     text-align: center; 
-    margin-bottom: 100px;
     padding-left: 100px;
     padding-right: 100px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    max-width: 1200px;
+    justify-items: center;
 }
 
 .aboutcards img{
