@@ -1,4 +1,5 @@
 import './teamcards.css';
+import { motion } from 'framer-motion';
 
 function TeamCard(){
     const state = 
@@ -55,22 +56,30 @@ function TeamCard(){
 
         <div className="cards">
         {state.map(post => (
-            <div key={post.id}>
+            <motion.div
+                key={post.id}
+                className="card"
+                initial={{ opacity: 0, y: 40 }} 
+                whileInView={{ opacity: 1, y: 0 }} 
+                exit={{ opacity: 0, y: 40 }} 
+                transition={{ duration: 1.5 }}
+                viewport={{ once: false }} 
+            >
                 <h1>{post.name}</h1>
                 <h3>{post.position}</h3>
-                <hr className="line"/>
+                <hr className="line" />
                 <div className="card-content">
-                <img src={post.photo}/>
-                <div>
-                    <p>{post.biograph1}</p>
-                    <p>{post.biograph2}</p>
-                    <p>{post.biograph3}</p>
-                    <p>{post.biograph4}</p>
+                    <img src={post.photo} alt={post.name} />
+                    <div>
+                        <p>{post.biograph1}</p>
+                        <p>{post.biograph2}</p>
+                        <p>{post.biograph3}</p>
+                        <p>{post.biograph4}</p>
+                    </div>
                 </div>
-            </div>
-            </div>
+            </motion.div>
         ))}
-        </div>
+    </div>
 
 
     );
