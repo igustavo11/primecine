@@ -30,6 +30,8 @@ function Header() {
     return (
         <header className={`header ${scrolling ? 'scrolled' : ''} ${location.pathname === '/' ? 'home' : location.pathname.slice(1)}`}>
             <nav className={`navbar ${scrolling ? 'scrolled' : ''}`}>
+                
+            <Link className="logo" to="/">Prosperium</Link>
                 <div className={`nav-links ${isMenuOpen ? 'menu-open' : ''}`}>
                     <span className="close-menu" onClick={closeMenu}>X</span>
                     <AnimatePresence mode="wait">
@@ -48,7 +50,6 @@ function Header() {
                     </AnimatePresence>
                 </div>
 
-                <Link className="logo" to="/">Prosperium</Link>
 
                 <div className={`hamburger ${isMenuOpen ? 'open' : ''}`} onClick={toggleMenu}>
                     <span className="bar"></span>
