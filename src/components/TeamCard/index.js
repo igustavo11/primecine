@@ -1,5 +1,6 @@
 import './teamcards.css';
 import { motion } from 'framer-motion';
+import jefersonImage from '../../img/jeferson.png';
 
 function TeamCard(){
     const state = 
@@ -29,12 +30,12 @@ function TeamCard(){
 
         {
             id: 3,
-            name: 'Federico Guglielmone',
+            name: 'jefferson Oliveira',
             position: 'Investment Committee',
             biograph1: 'Federico is an accomplished financial services professional with a deep entrepreneurial experience investing in early and growth stage corporations. A Swiss native, Federico studied humanities at the University of Milan before becoming a financial operator at Bocconi University in Milan. He worked in Swiss private banking from 1999 to 2014, carving a path that led him to develop deep connections with valuable customers moving on to asset management, and finally the complete management of the institution.',
             biograph2: 'Federico founded Effegi Iniziative Sagl in 2014, a Swiss company that provides financial advisory services, including recovery and renovation of historic buildings in the Canton of Ticino. As a result, he began to develop a deep understanding, knowledge and passion for the real estate industry. In 2019, Guglielmone founded Recentor SA, a Swiss company that aims to structure and develop new architectures by introducing proprietary interior designs and innovative architectures.',
             biograph3: 'Federico has been developing ideas throughout his career and remains an active investor in startup companies including Timerepublik, Artvisor and Finless Foods. In his private life, Federico is a sports enthusiast, completing a Gigathlon, a Marathon des Sables and some Ultratrails.',
-            photo: 'https://images.squarespace-cdn.com/content/v1/631349e6c645d416c5f05d60/f2f34e84-de75-4ff9-a9ac-22f759943d60/MPE_9582PrintDM.jpg?format=1500w',
+            photo: jefersonImage,
 
         },
 
