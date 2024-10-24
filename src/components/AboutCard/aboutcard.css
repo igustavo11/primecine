@@ -5,7 +5,7 @@
 }
 .swiper-slide {
     display: flex;
-    justify-content: center; /* Centraliza o conteúdo dentro do slide */
+    justify-content: center; 
     align-items: center;
     flex-direction: column;
     text-align: center;
