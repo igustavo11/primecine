@@ -1,26 +1,42 @@
-.aboutcards{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr); 
-    gap: 100px; 
-    text-align: center; 
-    padding-left: 100px;
-    padding-right: 100px;
-    margin: 0 auto;
-    margin-bottom: 100px;
-    max-width: 1200px;
-    justify-items: center;
+.swiper {
+    width: 100%; 
+    max-width: 1200px; 
+    margin: 0 auto; 
+}
+.swiper-slide {
+    display: flex;
+    justify-content: center; /* Centraliza o conteúdo dentro do slide */
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
 }
 
-.aboutcards img{
-    width: 250px;
+
+.swiper-slide img{
+    max-width: 250px;
+    width: 100%;
+   
 }
 
-.aboutcards p{
-   font-size:20px; 
+.swiper-slide h2{
+    font-weight: 500;
 }
 
-@media (max-width:768px){
-    .aboutcards{
-        display: block;
-    }
+.swiper-slide p{
+   font-size:16px; 
+   margin-top:10px;
 }
+
+.swiper-pagination{
+    bottom: 10px;
+  }
+  
+  .swiper-pagination-bullet {
+    background: #005836;;
+  }
+  
+  .swiper-pagination-bullet-active {
+    background: var( --color-primary);
+  }
+

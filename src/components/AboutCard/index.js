@@ -1,4 +1,9 @@
-import './aboutcard.css'
+import './aboutcard.css';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/swiper-bundle.css'; 
+import { Pagination} from 'swiper/modules';
+import 'swiper/css/pagination';
+
 
 function AboutCard(){
     const about = [
@@ -14,19 +19,39 @@ function AboutCard(){
             title:'STRATEGY',
             paragraph:'Create homes with sophisticated, modern designs and processes. We leverage materials and products that have demonstrated energy efficiency and durability.',
         },
+        {
+            id:3,
+            photo:'https://images.squarespace-cdn.com/content/v1/631349e6c645d416c5f05d60/e5d10360-aaf6-4aa6-bb80-a53ecdcbd2b4/4.png?format=750w',
+            title:'STRATEGY',
+            paragraph:'Create homes with sophisticated, modern designs and processes. We leverage materials and products that have demonstrated energy efficiency and durability.',
+        },
     ]
 
     return(
+        <Swiper
+        modules={[Pagination]}
+        spaceBetween={20}
+        slidesPerView={1} 
+        pagination={{ clickable: true }}
+        breakpoints={{
+          640: {
+            slidesPerView: 2,
+          },
+          768: {
+            slidesPerView: 3, 
+          },
+        }}>
         <div className="aboutcards">
          {about.map(post => (
-            <div key={post.id}>
+            <SwiperSlide key={post.id}>
                 <img src={post.photo}/>
                 <h2>{post.title}</h2>
                 <p>{post.paragraph}</p>
-            </div>
+            </SwiperSlide>
         ))}
 
         </div>
+        </Swiper>
     );
 };
 export default AboutCard;
