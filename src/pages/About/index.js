@@ -50,8 +50,8 @@ function About(){
 
         <div className="home-container">
                     <div className="content-center">
-                        <h3 className="home-title">Welcome to Prosperium</h3>
-                        <p>aaaafafaafafafafafafafafa</p>
+                        <h3 className="home-title">Our passion for real estate is </h3>
+                        <h3 className="home-title">the secret to your sucess</h3>
                     </div>
                 </div>
 

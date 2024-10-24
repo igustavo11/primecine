@@ -152,6 +152,7 @@
     justify-content: space-between;
     width: 30px;
     height: 25px;
+    margin-right: 5px;
 }
 
 .bar {
@@ -172,10 +173,15 @@
 
     .nav-links.menu-open {
         display: flex;
-        flex-direction: column;
+        flex-direction: column; 
+        justify-content: center; 
+        align-items: center; 
     }
 
     .nav-links a {
         font-size: 26px; 
+        padding: 10px 0; 
+        width: 100%; 
+        text-align: center; 
     }
 }
