@@ -16,9 +16,6 @@ function About() {
     visible: { opacity: 1, x: 0, transition: { duration: 1.3 } }
   };
 
-  /*const Id1 = description.find(item => item.id === 1);
-  const Id2 = description.find(item => item.id === 2);*/
-
   return (
     <>
       <div className="home-container">
