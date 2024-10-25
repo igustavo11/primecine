@@ -2,7 +2,7 @@ import './aboutcard.css';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/swiper-bundle.css'; 
 import { Pagination } from 'swiper/modules';
-import 'swiper/css/pagination';
+import 'swiper/css';
 import { motion } from 'framer-motion';
 
 function AboutCard() {
