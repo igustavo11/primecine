@@ -1,27 +1,9 @@
 import './about.css';
 import AboutCard from '../../components/AboutCard';
 import { motion } from 'framer-motion';
+import AboutDescription from '../../components/AboutDescription';
 
 function About() {
-  const description = [
-    {
-      id: 1,
-      photo: 'https://web.xpi.com.br/xp-new/wp-content/uploads/sites/18/2022/12/FII-bloco-1-1.png?w=1200&h=undefined&q=75',
-      title: 'Sonho Grande',
-      subtitle: 'Ser referência fazendo o certo da forma certa!',
-      paragraph1: 'Chegamos até aqui buscando o impossível. Procuramos desafios além das nossas capacidades e não nos conformamos com o status quo.',
-      paragraph2: 'Seremos liderança global nas questões ESG, transformando problemas socioambientais em oportunidades de negócio, inspirando empresas e pessoas a construir um futuro melhor e posicionando-se como empresa que se responsabiliza pelo seu legado.',
-    },
-    {
-      id: 2,
-      photo: 'https://web.xpi.com.br/xp-new/wp-content/uploads/sites/18/2022/12/FII-bloco-1-1.png?w=1200&h=undefined&q=75',
-      title: 'Sonho Grande',
-      subtitle: 'Ser referência fazendo o certo da forma certa!',
-      paragraph1: 'Chegamos até aqui buscando o impossível. Procuramos desafios além das nossas capacidades e não nos conformamos com o status quo.',
-      paragraph2: 'Seremos liderança global nas questões ESG, transformando problemas socioambientais em oportunidades de negócio, inspirando empresas e pessoas a construir um futuro melhor e posicionando-se como empresa que se responsabiliza pelo seu legado.',
-    },
-  ];
-
   
   const leftAnimation = {
     hidden: { opacity: 0, x: -100 },
@@ -34,8 +16,8 @@ function About() {
     visible: { opacity: 1, x: 0, transition: { duration: 1.3 } }
   };
 
-  const Id1 = description.find(item => item.id === 1);
-  const Id2 = description.find(item => item.id === 2);
+  /*const Id1 = description.find(item => item.id === 1);
+  const Id2 = description.find(item => item.id === 2);*/
 
   return (
     <>
@@ -51,6 +33,10 @@ function About() {
         <AboutCard />
       </section>
 
+      <section>
+      <AboutDescription></AboutDescription>
+      </section>
+    {/*
       <motion.section
         className="description-about1"
         initial="hidden"
@@ -97,7 +83,7 @@ function About() {
       </motion.section>
 
 
-      
+      */}
 
       <section className="values">
         <h1>VALUES</h1>
