@@ -1,8 +1,13 @@
 import './team.css';
 import TeamCard from '../../components/TeamCard';
 import { motion } from 'framer-motion';
+import { useTranslation } from 'react-i18next';
+import enTeam from '../../locales/en/team.json';
+import ptTeam from '../../locales/pt/team.json';
 
 function Team() {
+    const { t } = useTranslation(); 
+
     return (
         <>
             <div className="home-container">
@@ -14,10 +19,9 @@ function Team() {
                         exit={{ opacity: 0, y: -20 }} 
                         transition={{ duration: 0.5 }} 
                     >
-                        <h3>Welcome to Prosperium</h3>
-                        <p>aaaafafaafafafafafafafafa</p>
+                        <h3>{t('welcomeMessage')}</h3> 
+                        <p>{t('team')}</p>
                     </motion.h3>
-                    
                 </div>
             </div>
 
