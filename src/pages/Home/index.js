@@ -2,6 +2,7 @@
 import './home.css';
 import {Link} from 'react-router-dom'
 import napkinSelection from '../../napkin-selection.png'; 
+import HomeCard from '../../components/HomeCard';
 function Home() {
     return (
         <>
@@ -38,6 +39,10 @@ function Home() {
                     <Link className="contactHome" to="/team">About</Link>
                 </div>
             </div>
+        </section>
+        
+        <section>
+            <HomeCard></HomeCard>
         </section>
 
         </>
