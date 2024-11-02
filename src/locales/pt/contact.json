@@ -1,0 +1,38 @@
+[
+    {
+      "title": "Contate-nos",
+      "locations": [
+        {
+          "name": "lorem| Estados Unidos",
+          "address": "185 Lotrem St, 25th Andar",
+          "city": "cidade 22",
+          "phone": "P: 917.558"
+        },
+        {
+          "name": "lorem| EUA",
+          "address": "lorem 87",
+          "city": "Texas, usa2",
+          "phone": "P: 888.444.222"
+        }
+      ],
+      "form": {
+        "name": "Nome",
+        "firstName": "Primeiro Nome",
+        "lastName": "Sobrenome",
+        "email": "Email",
+        "message": "Mensagem",
+        "required": "obrigatório",
+        "submitButton": "Enviar",
+        "successMessage": "Sua mensagem foi enviada com sucesso!",
+        "errors": {
+          "firstName": "O primeiro nome é obrigatório",
+          "lastName": "O sobrenome é obrigatório",
+          "email": "O email é obrigatório",
+          "invalidEmail": "Email inválido",
+          "message": "A mensagem é obrigatória",
+          "sendFailed": "Falha ao enviar email. Por favor, tente novamente."
+        }
+      }
+    }
+  ]
+  

@@ -43,20 +43,18 @@
     background-color: transparent; 
     z-index: 10;
     padding-left: 20px;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .navbar.scrolled {
-    background-color: var(--color-secondary); 
+    background-color: var(--color-secondary-var2); 
+}
+.logo-icon {
+    width: 320px; 
+    height: 300px;
+    margin-left: 200px;
 }
 
-.logo {
-    text-decoration: none;
-    font-size: 30px;
-    color: var(--color-primary);
-    font-weight: bold;
-    margin-right: 20px;
-}
 
 .nav-links {
     display: flex;
@@ -169,10 +167,12 @@
     border-radius: 4px;
     display: flex;
     align-items: center;
+    color: #fff;
+    background-color: var(--color-secondary);
 }
 
 .dropdown:hover {
-    background-color: #ccc;
+    background-color: var(--color-secondary-var3);
 }
 
 .flag-icon {
@@ -186,8 +186,8 @@
     position: absolute;
     top: 100%;
     left: 0;
-    background-color: #ccc;
-    border: 1px solid #ddd;
+    background-color: var(--color-secondary);
+    border: 1px solid var(--color-secondary);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 4px;
     overflow: hidden;
@@ -203,7 +203,7 @@
 }
 
 .dropdown-item:hover {
-    background-color: #f0f0f0;
+    background-color: var(--color-secondary-var3);
 }
 
 @media (max-width: 768px) {
@@ -227,5 +227,10 @@
         padding: 10px 0; 
         width: 100%; 
         text-align: center; 
+    }
+    .logo-icon{
+        width: 100px;
+        height: auto;
+        margin-left: -25px;
     }
 }

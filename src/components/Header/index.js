@@ -4,15 +4,17 @@ import { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import brasil from '../../img/brasil.png';
 import eua from '../../img/estados-unidos.png';
+import icone2 from '../../img/icone2.png';
+import vertical1 from '../../img/horizontal-3.png';
 
 function Header() {
     const [scrolling, setScrolling] = useState(false);
     const [isMenuOpen, setIsMenuOpen] = useState(false);
     const [isDropdownOpen, setIsDropdownOpen] = useState(false);
+    const [logo, setLogo] = useState(icone2); 
     const location = useLocation();
     const { t, i18n } = useTranslation();
 
-    
     const toggleLanguage = (lang) => {
         i18n.changeLanguage(lang);
         setIsDropdownOpen(false); 
@@ -37,12 +39,24 @@ function Header() {
         };
     }, []);
 
+    useEffect(() => {
+       
+        const updateLogo = () => {
+            setLogo(window.innerWidth > 768 ? vertical1 : icone2);
+        };
+
+        updateLogo(); 
+
+        const mediaQuery = window.matchMedia('(min-width: 769px)');
+        mediaQuery.addEventListener('change', updateLogo); 
+
+        return () => mediaQuery.removeEventListener('change', updateLogo);
+    }, []);
+
     return (
         <>
             <header className={`header ${scrolling ? 'scrolled' : ''} ${location.pathname === '/' ? 'home' : location.pathname.slice(1)}`}>
                 <nav className={`navbar ${scrolling ? 'scrolled' : ''}`}>
-                    <Link className="logo" to="/">Prosperium</Link>
-
                     
                     <div className="dropdown" onClick={() => setIsDropdownOpen(!isDropdownOpen)}>
                         <img
@@ -50,7 +64,7 @@ function Header() {
                             alt="language"
                             className="flag-icon"
                         />
-                        <span>{i18n.language === 'en' ? 'English' : 'Português'}</span>
+                        <span>{i18n.language === 'en' ? 'EN' : 'PTBR'}</span>
                         {isDropdownOpen && (
                             <div className="dropdown-menu">
                                 <div className="dropdown-item" onClick={() => toggleLanguage('en')}>
@@ -63,7 +77,10 @@ function Header() {
                         )}
                     </div>
 
-                  
+                    <Link className="logo" to="/">
+                        <img src={logo} alt="Logo" className="logo-icon" />
+                    </Link>
+
                     <div className={`nav-links ${isMenuOpen ? 'menu-open' : ''}`}>
                         <span className="close-menu" onClick={closeMenu}>X</span>
                         <div>
