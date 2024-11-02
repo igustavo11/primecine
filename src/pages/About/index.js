@@ -1,6 +1,12 @@
 import './about.css';
 import AboutCard from '../../components/AboutCard';
 import { motion } from 'framer-motion';
+import forcabuilderslogo from "../../img/logoforcabuilders.png";
+import { IconContext } from "react-icons";
+import { FaWhatsapp } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
+import { FaYoutube } from "react-icons/fa";
+
 
 function About() {
   const description = [
@@ -96,13 +102,32 @@ function About() {
         <img src={Id1.photo} alt={Id1.title} />
       </motion.section>
 
-
-      
-
       <section className="values">
         <h1>VALUES</h1>
         <p>Our core values are deeply ingrained principles that guide all of Shape Equity’s actions; they serve as our cultural cornerstones. We believe these are crucial for the success of the business, all stakeholders, and the communities we are a part of.<br />Accountability • Trust • Integrity • Excellence • Teamwork</p>
       </section>
+
+   
+      <section className='partners'>
+        <h1>OUR INVESTORS</h1>
+          <div className='partners-content'>
+            <img src={forcabuilderslogo}/>
+            <div className='paragraph'>
+              <h2>Força Builders</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris faucibus lorem eu tortor porta, id consequat risus viverra. Suspendisse elementum at erat et interdum. Donec fermentum dapibus erat, quis sagittis sem dapibus porttitor</p>
+              <IconContext.Provider value={{color: "#005836", size:"25px"}}>
+                  <div className='social-icons'>
+                    <a href="#"><FaWhatsapp /></a>
+                    <a href="#"><FaInstagram /></a>
+                    <a href="#"><FaYoutube /></a>
+                  </div>
+              </IconContext.Provider>
+              
+            </div>
+          </div>
+      </section>
+      
+
     </>
   );
 }
