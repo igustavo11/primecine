@@ -1,9 +1,14 @@
 import React, { useState } from 'react';
 import emailjs from 'emailjs-com'; 
+import { useTranslation } from 'react-i18next';
+import enContact from '../../locales/en/contact.json';
+import ptContact from '../../locales/pt/contact.json';
 import './contact.css';
 
-
 function Contact() {
+    const { i18n } = useTranslation();
+    const contactData = i18n.language === 'en' ? enContact[0] : ptContact[0];
+
     const [formData, setFormData] = useState({
         firstName: '',
         lastName: '',
@@ -24,14 +29,14 @@ function Contact() {
 
     const validateForm = () => {
         const newErrors = {};
-        if (!formData.firstName) newErrors.firstName = "First name is required";
-        if (!formData.lastName) newErrors.lastName = "Last name is required";
+        if (!formData.firstName) newErrors.firstName = contactData.form.errors.firstName;
+        if (!formData.lastName) newErrors.lastName = contactData.form.errors.lastName;
         if (!formData.email) {
-            newErrors.email = "Email is required";
+            newErrors.email = contactData.form.errors.email;
         } else if (!/\S+@\S+\.\S+/.test(formData.email)) {
-            newErrors.email = "Email is invalid";
+            newErrors.email = contactData.form.errors.invalidEmail;
         }
-        if (!formData.message) newErrors.message = "Message is required";
+        if (!formData.message) newErrors.message = contactData.form.errors.message;
         return newErrors;
     };
 
@@ -51,43 +56,38 @@ function Contact() {
                         setIsSent(false);
                     }, 3000);
                 })
-                .catch((error) => {
-                   
-                    alert('Failed to send email. Please try again.'); 
+                .catch(() => {
+                    alert(contactData.form.errors.sendFailed); 
                 });
         }
     };
 
     return (
         <div className="contact-section">
-            <h1>Contact Us</h1>
+            <h1>{contactData.title}</h1>
             <div className="contact-container">
                 <div className="contact-info">
                     <div className="locations">
-                        <div className="location">
-                            <h3>lorem| United States</h3>
-                            <p>185 Lotrem St, 25th Fl.<br />
-                                city 22<br />
-                                P: 917.558</p>
-                        </div>
-                        <div className="location">
-                            <h3>lorem| UsA</h3>
-                            <p>lorem 87<br />
-                                Texas , usa2<br />
-                                P: 888.444.222</p>
-                        </div>
+                        {contactData.locations.map((location, index) => (
+                            <div className="location" key={index}>
+                                <h3>{location.name}</h3>
+                                <p>{location.address}<br />
+                                   {location.city}<br />
+                                   {location.phone}</p>
+                            </div>
+                        ))}
                     </div>
                 </div>
                 <div className="contact-form">
                     <form onSubmit={handleSubmit}>
                         <label>
-                            Name <span>(required)</span>
+                            {contactData.form.name} <span>({contactData.form.required})</span>
                         </label>
                         <div className="name-fields">
                             <input
                                 type="text"
                                 name="firstName"
-                                placeholder="First Name"
+                                placeholder={contactData.form.firstName}
                                 value={formData.firstName}
                                 onChange={handleChange}
                                 required
@@ -96,7 +96,7 @@ function Contact() {
                             <input
                                 type="text"
                                 name="lastName"
-                                placeholder="Last Name"
+                                placeholder={contactData.form.lastName}
                                 value={formData.lastName}
                                 onChange={handleChange}
                                 required
@@ -104,12 +104,12 @@ function Contact() {
                             {errors.lastName && <p className="error">{errors.lastName}</p>}
                         </div>
                         <label>
-                            Email <span>(required)</span>
+                            {contactData.form.email} <span>({contactData.form.required})</span>
                         </label>
                         <input
                             type="email"
                             name="email"
-                            placeholder="Email"
+                            placeholder={contactData.form.email}
                             value={formData.email}
                             onChange={handleChange}
                             required
@@ -117,20 +117,20 @@ function Contact() {
                         {errors.email && <p className="error">{errors.email}</p>}
 
                         <label>
-                            Message <span>(required)</span>
+                            {contactData.form.message} <span>({contactData.form.required})</span>
                         </label>
                         <textarea
                             name="message"
-                            placeholder="Message"
+                            placeholder={contactData.form.message}
                             value={formData.message}
                             onChange={handleChange}
                             required
                         ></textarea>
                         {errors.message && <p className="error">{errors.message}</p>}
 
-                        <button type="submit">Submit</button>
+                        <button type="submit">{contactData.form.submitButton}</button>
                     </form>
-                    {isSent && <p className="success">Your message has been sent successfully!</p>}
+                    {isSent && <p className="success">{contactData.form.successMessage}</p>}
                 </div>
             </div>
         </div>

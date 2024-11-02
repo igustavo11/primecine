@@ -1,0 +1,38 @@
+[
+    {
+      "title": "Contact Us",
+      "locations": [
+        {
+          "name": "lorem| United States",
+          "address": "185 Lotrem St, 25th Fl.",
+          "city": "city 22",
+          "phone": "P: 917.558"
+        },
+        {
+          "name": "lorem| USA",
+          "address": "lorem 87",
+          "city": "Texas, usa2",
+          "phone": "P: 888.444.222"
+        }
+      ],
+      "form": {
+        "name": "Name",
+        "firstName": "First Name",
+        "lastName": "Last Name",
+        "email": "Email",
+        "message": "Message",
+        "required": "required",
+        "submitButton": "Submit",
+        "successMessage": "Your message has been sent successfully!",
+        "errors": {
+          "firstName": "First name is required",
+          "lastName": "Last name is required",
+          "email": "Email is required",
+          "invalidEmail": "Email is invalid",
+          "message": "Message is required",
+          "sendFailed": "Failed to send email. Please try again."
+        }
+      }
+    }
+  ]
+  
