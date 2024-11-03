@@ -3,9 +3,7 @@ import AboutCard from '../../components/AboutCard';
 import { motion } from 'framer-motion';
 import forcabuilderslogo from "../../img/logoforcabuilders.png";
 import { IconContext } from "react-icons";
-import { FaWhatsapp } from "react-icons/fa";
-import { FaInstagram } from "react-icons/fa";
-import { FaYoutube } from "react-icons/fa";
+import { FaLink } from "react-icons/fa6";
 
 
 function About() {
@@ -115,11 +113,10 @@ function About() {
             <div className='paragraph'>
               <h2>Força Builders</h2>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris faucibus lorem eu tortor porta, id consequat risus viverra. Suspendisse elementum at erat et interdum. Donec fermentum dapibus erat, quis sagittis sem dapibus porttitor</p>
-              <IconContext.Provider value={{color: "#005836", size:"25px"}}>
-                  <div className='social-icons'>
-                    <a href="#"><FaWhatsapp /></a>
-                    <a href="#"><FaInstagram /></a>
-                    <a href="#"><FaYoutube /></a>
+              <IconContext.Provider value={{color: "#32583a", size:"20px"}}>
+                  <div className='social-icons-content'>
+                    <FaLink/>
+                    <a href="https://www.forcabuilders.com/" target='_blank'>https://www.forcabuilders.com/</a>
                   </div>
               </IconContext.Provider>
               

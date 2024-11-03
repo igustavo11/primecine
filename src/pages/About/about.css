@@ -146,9 +146,18 @@ section{
     width: 300px;
 }
 
-.social-icons{
+.social-icons-content{
     display: flex;
-    gap: 20px;
+    gap:5px;
+}
+
+.social-icons-content a{
+    text-decoration: none;
+    color: var(--color-secondary);
+}
+.social-icons-content a:hover{
+    color: var(--color-primary);
+    text-decoration: underline;
 }
 
 @media (max-width: 991px) {
@@ -177,4 +186,13 @@ section{
     .paragraph {
         text-align: center;
     }
+}
+
+@media(max-width:768px){
+    .partners .partners-content{
+        flex-direction: column;
+        text-align: center;
+        gap: 40px;
+    }
+
 }
