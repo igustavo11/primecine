@@ -75,7 +75,7 @@
 } 
 
 .content {
-    max-width: 600px; 
+    max-width: 500px; 
     text-align: left;
 }
 
@@ -87,7 +87,6 @@
 }
 
 .descriptionHome {
-    font-family: 'Arial', sans-serif;
     font-size: 16px;
     color: #000;
     margin-bottom: 20px;

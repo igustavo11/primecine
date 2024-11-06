@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "photo": "",
+        "title": "Estratégia Central",
+        "paragraph": "Nossa estratégia aborda as demandas do mercado imobiliário. Reimaginamos o desenvolvimento e gestão de prédios residenciais multifamiliares nos EUA com:",
+        "paragraph2": "Colaboração com Especialistas: Arquitetos, engenheiros e contratantes de alto nível, focados em inovação e qualidade.",
+        "paragraph3": "Gestão de Projetos Eficiente: Técnicas de gestão para otimizar prazos, controlar custos e garantir excelência.",
+        "paragraph4": "Alocação Estratégica de Recursos: Execução de cada projeto com equilíbrio entre orçamento, recursos e prazos, garantindo padrões de qualidade e retorno financeiro."
+    },
+    {
+        "id": 2,
+        "photo": "",
+        "title": "Opções de investimento",
+        "paragraph": "Oferecemos oportunidades de investimento flexíveis:",
+        "paragraph2": "Equity Investment: Participação nos projetos, com ganhos pela valorização, renda de aluguéis e lucros de futuras vendas.",
+        "paragraph3": "Debt Investment: Opção para quem busca retorno fixo, com fluxo de renda previsível e garantido por ativos imobiliários.",
+        "paragraph4": "Investimentos em Projetos Específicos: Foco em oportunidades individuais, com atualizações e relatórios detalhados para decisões informadas."
+    },
+    {
+        "id": 3,
+        "photo": "",
+        "title": "Metas de desempenho",
+        "paragraph": "Retorno-Alvo: Buscamos um IRR de 20%+ em todos os investimentos, garantindo crescimento significativo.",
+        "paragraph2": "Duração dos Projetos: Prazos de 24 a 36 meses, dependendo da complexidade, com aderência a prazos e qualidade.",
+        "paragraph3": "Taxa de Gestão: 1.5% do capital comprometido, alinhada ao sucesso dos projetos.",
+        "paragraph4": "Mitigação de Riscos: Planejamento estratégico e supervisão ativa para resultados previsíveis e proteção do capital dos investidores."
+    },
+    {
+        "id": 4,
+        "photo": "",
+        "title": "Termos de Investimento",
+        "paragraph": "Compromisso Mínimo: $250,000",
+        "paragraph2": "Taxa de Gestão: 1.5% do capital comprometido, alinhada ao sucesso dos projetos.",
+        "paragraph3": "Taxa de Performance: 40% dos lucros após um retorno preferencial de 8%.",
+        "paragraph4": "Período de Compromisso: 5 anos, com possibilidade de extensão por mais 2 anos para maximizar retornos e garantir a conclusão dos projetos."
+    }
+]

@@ -13,29 +13,19 @@ function Home() {
             </div>
         </div>
 
-        <section className="section">
-
-                <div className="icon2">
-                    <img src={napkinSelection} alt="Icon" />
-                </div>
-            
-        </section>
+       
         <section className="section">
             <div className="container">
                 <div className="icon">
                     <img src='https://images.squarespace-cdn.com/content/v1/631349e6c645d416c5f05d60/f1f178da-65cf-4217-be39-5d6176a1d421/10.png?format=500w' alt="Icon" />
                 </div>
                 <div className="content">
-                    <h2 className="title">section</h2>
+                    <h2 className="title">Prosperium</h2>
                     <p className="descriptionHome">
-                        teste testeteste testeteste testeteste testeteste testeteste testeteste testeteste teste
+                    Prosperum Investment Partners is a dynamic real estate investment and development firm with a strategic focus on identifying, acquiring, and developing high-value real estate projects. Our primary expertise lies in multi-family residential properties, where we combine innovative design with sustainable construction methods. By employing cutting-edge materials and modern techniques, we ensure that every project we develop meets the highest standards of quality and performance.
+
                     </p>
-                    <p className="descriptionHome">
-                            teste testeteste testeteste testeteste testeteste testeteste testeteste testeteste teste
-                    </p>
-                    <p className="descriptionHome">
-                            teste testeteste testeteste testeteste testeteste testeteste testeteste testeteste teste
-                    </p>
+                   
                     <Link className="contactHome" to="/team">About</Link>
                 </div>
             </div>
