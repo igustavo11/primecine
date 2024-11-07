@@ -13,7 +13,7 @@ function Header() {
     const [isDropdownOpen, setIsDropdownOpen] = useState(false);
     const [logo, setLogo] = useState(icone2); 
     const location = useLocation();
-    const { t, i18n } = useTranslation();
+    const { t, i18n } = useTranslation('header');
 
     const toggleLanguage = (lang) => {
         i18n.changeLanguage(lang);

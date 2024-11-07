@@ -4,6 +4,9 @@ import { motion } from 'framer-motion';
 import forcabuilderslogo from "../../img/logoforcabuilders.png";
 import { IconContext } from "react-icons";
 import { FaLink } from "react-icons/fa6";
+import { useTranslation } from 'react-i18next';
+import enAbout from "../../locales/en/about.json";
+import ptAbout from "../../locales/pt/about.json";
 
 
 function About() {
@@ -25,7 +28,8 @@ function About() {
       paragraph2: 'Seremos liderança global nas questões ESG, transformando problemas socioambientais em oportunidades de negócio, inspirando empresas e pessoas a construir um futuro melhor e posicionando-se como empresa que se responsabiliza pelo seu legado.',
     },
   ];
-
+  
+  const { t } = useTranslation('about');
   
   const leftAnimation = {
     hidden: { opacity: 0, x: -100 },
@@ -45,13 +49,13 @@ function About() {
     <>
       <div className="home-container">
         <div className="content-center">
-          <h3 className="home-title">Our passion for real estate is</h3>
-          <h3 className="home-title">the secret to your success</h3>
+          <h3 className="home-title">{t('hometitle1')}</h3>
+          <h3 className="home-title">{t('hometitle2')}</h3>
         </div>
       </div>
 
       <section className="transition-paragraph">
-        <h1>Nossos Pilares</h1>
+        <h1>{t("pillarsTitle")}</h1>
         <AboutCard />
       </section>
 
