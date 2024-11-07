@@ -1,25 +1,12 @@
-[
-    {
-        "id": 1,
-        "title": "MISSÃO",
-        "paragraph": "A missão da Prosperum é oferecer retornos atrativos e ajustados ao risco para seus investidores por meio do desenvolvimento estratégico de imóveis.",
-        "photo": "https://images.squarespace-cdn.com/content/v1/631349e6c645d416c5f05d60/eeabbe03-e99b-4aac-bb15-7cc65ad61e69/3.png?format=750w"
-    },
-    {
-        "id": 2,
-        "title": "ESTRATÉGIA",
-        "paragraph": "A empresa foca em identificar ativos subutilizados, transformando-os em propriedades de alto desempenho e gerando resultados financeiros excepcionais.",
-        "photo": "https://images.squarespace-cdn.com/content/v1/631349e6c645d416c5f05d60/e5d10360-aaf6-4aa6-bb80-a53ecdcbd2b4/4.png?format=750w"
-    },
-    {
-        "id": 3,
-        "title": "PRINCÍPIOS",
-        "paragraph": "Seus princípios incluem a criação de valor, sustentabilidade e crescimento a longo prazo, com forte colaboração com arquitetos, contratantes e comunidades locais para garantir que os projetos atendam às expectativas dos investidores e beneficiem o entorno.",
-        "photo": "https://images.squarespace-cdn.com/content/v1/631349e6c645d416c5f05d60/e5d10360-aaf6-4aa6-bb80-a53ecdcbd2b4/4.png?format=750w"
-    },
-    {
-        "hometitle1": "Nossa paixão por imóveis é",
-        "hometitle2": "o segredo para o seu sucesso.",
-        "pillarsTitle": "Nossos pilares"
-    }
-]
+{
+    "dreamBigTitle": "Sonho Grande",
+    "dreamBigSubtitle": "Ser referência fazendo o certo da forma certa!",
+    "dreamBigParagraph1": "Chegamos até aqui buscando o impossível. Procuramos desafios além das nossas capacidades e não nos conformamos com o status quo.",
+    "dreamBigParagraph2": "Seremos liderança global nas questões ESG, transformando problemas socioambientais em oportunidades de negócio, inspirando empresas e pessoas a construir um futuro melhor e posicionando-se como empresa que se responsabiliza pelo seu legado.",
+    "pillarsTitle": "Nossos Pilares",
+    "valuesTitle": "VALORES",
+    "partnersTitle": "NOSSOS INVESTIDORES",
+    "valuesDescription": "Nossos valores centrais são princípios profundamente enraizados que orientam todas as ações da Shape Equity; eles servem como os pilares culturais da nossa empresa. Acreditamos que são cruciais para o sucesso dos negócios, todas as partes interessadas e as comunidades de que fazemos parte.",
+    "partnersDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris faucibus lorem eu tortor porta, id consequat risus viverra. Suspendisse elementum at erat et interdum. Donec fermentum dapibus erat, quis sagittis sem dapibus porttitor."
+  }
+  
