@@ -39,7 +39,7 @@ section{
 .transition-paragraph {
     display: flex;
     flex-direction: column;
-    margin: 100px auto;
+    margin: 50px auto;
     max-width: 80%;
     padding: 20px;
     text-align: center;
@@ -55,7 +55,7 @@ section{
     justify-content: center;
     align-items: center;
     gap: 20px;
-    margin: 100px auto;
+    margin: 50px auto;
     max-width: 80%;
     padding: 20px;
 }
@@ -91,7 +91,7 @@ section{
     justify-content: center;
     align-items: center;
     gap: 20px;
-    margin: 100px auto;
+    margin: 50px auto;
     background-color:#b8ddcf;
     padding: 50px 20px;
 }
@@ -105,10 +105,9 @@ section{
 
 .values{
     text-align: center;
-    margin-top: 100px;
     padding: 20px;
     width: 80%;
-    margin: 100px auto;
+    margin: 50px auto;
 }
 
 .values h1 {
@@ -122,7 +121,7 @@ section{
 }
 
 .partners{
-    margin: 100px auto;
+    margin: 50px auto;
     max-width: 80%;
     padding: 20px;
 }

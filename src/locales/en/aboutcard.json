@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "title": "MISSION",
+        "paragraph": "Prosperum's mission is to deliver attractive, risk-adjusted returns for investors through strategic real estate development.",
+        "photo": "https://images.squarespace-cdn.com/content/v1/631349e6c645d416c5f05d60/eeabbe03-e99b-4aac-bb15-7cc65ad61e69/3.png?format=750w"
+    },
+    {
+        "id": 2,
+        "title": "STRATEGY",
+        "paragraph": "The company focuses on transforming underutilized assets into high-performing properties, with an emphasis on value creation, sustainability, and long-term growth.",
+        "photo": "https://images.squarespace-cdn.com/content/v1/631349e6c645d416c5f05d60/e5d10360-aaf6-4aa6-bb80-a53ecdcbd2b4/4.png?format=750w"
+    },
+    {
+        "id": 3,
+        "title": "PRINCIPLES",
+        "paragraph": "Their principles include value creation, sustainability, and long-term growth, with strong collaboration with architects, contractors, and local communities to ensure that the projects meet investor expectations and benefit the surrounding area",
+        "photo": "https://images.squarespace-cdn.com/content/v1/631349e6c645d416c5f05d60/e5d10360-aaf6-4aa6-bb80-a53ecdcbd2b4/4.png?format=750w"
+    }
+]

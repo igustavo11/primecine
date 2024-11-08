@@ -1,5 +1,5 @@
 import './about.css';
-//import AboutCard from '../../components/AboutCard';
+import AboutCard from '../../components/AboutCard';
 import { motion } from 'framer-motion';
 import forcabuilderslogo from "../../img/logoforcabuilders.png";
 import { IconContext } from "react-icons";
@@ -11,18 +11,29 @@ function About() {
     {
       id: 1,
       photo: 'https://web.xpi.com.br/xp-new/wp-content/uploads/sites/18/2022/12/FII-bloco-1-1.png?w=1200&h=undefined&q=75',
-      title: 'dreamBigTitle',
-      subtitle: 'dreamBigSubtitle',
+      title: 'dreamBigTitle1',
+      subtitle: 'dreamBigSubtitle1',
       paragraph1: 'dreamBigParagraph1',
-      paragraph2: 'dreamBigParagraph2',
     },
     {
       id: 2,
       photo: 'https://web.xpi.com.br/xp-new/wp-content/uploads/sites/18/2022/12/FII-bloco-1-1.png?w=1200&h=undefined&q=75',
-      title: 'dreamBigTitle',
-      subtitle: 'dreamBigSubtitle',
-      paragraph1: 'dreamBigParagraph1',
-      paragraph2: 'dreamBigParagraph2',
+      title: 'dreamBigTitle2',
+      subtitle: 'dreamBigSubtitle2',
+      paragraph1: 'dreamBigParagraph2',
+    },
+    {
+      id: 3,
+      photo: 'https://web.xpi.com.br/xp-new/wp-content/uploads/sites/18/2022/12/FII-bloco-1-1.png?w=1200&h=undefined&q=75',
+      title: 'dreamBigTitle3',
+      subtitle: 'dreamBigSubtitle3',
+      paragraph1: 'dreamBigParagraph3',
+    },
+    {
+      id: 4,
+      photo: 'https://web.xpi.com.br/xp-new/wp-content/uploads/sites/18/2022/12/FII-bloco-1-1.png?w=1200&h=undefined&q=75',
+      title: 'dreamBigTitle4',
+      subtitle: 'dreamBigSubtitle4',
     },
   ];
   
@@ -40,6 +51,8 @@ function About() {
 
   const Id1 = description.find(item => item.id === 1);
   const Id2 = description.find(item => item.id === 2);
+  const Id3 = description.find(item => item.id === 3);
+  const Id4 = description.find(item => item.id === 4);
 
   return (
     <>
@@ -50,6 +63,15 @@ function About() {
         </div>
       </div>
 
+      <section className="transition-paragraph">
+        <h1>{t("pillarsTitle")}</h1>
+        <AboutCard />
+      </section>
+
+      <section className="values">
+        <h1>{t('investingTitle')}</h1>
+        <p>{t('investingDescription')}</p>
+      </section>
      
       <motion.section
         className="description-about1"
@@ -78,6 +100,36 @@ function About() {
           <h1>{t(Id2.title)}</h1>
           <h3>{t(Id2.subtitle)}</h3>
           <p>{t(Id2.paragraph1)}<br />{t(Id2.paragraph2)}</p>
+        </div>
+      </motion.section>
+
+      <motion.section
+        className="description-about1"
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: true, amount: 0.5 }} 
+        variants={leftAnimation}
+      >
+        <div className="paragraph">
+          <h1>{t(Id3.title)}</h1>
+          <h3>{t(Id3.subtitle)}</h3>
+          <p>{t(Id3.paragraph1)}<br />{t(Id3.paragraph2)}</p>
+        </div>
+        <img src={Id3.photo} alt={Id3.title} />
+      </motion.section>
+
+      <motion.section
+        className="description-about2"
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: true, amount: 0.5 }}
+        variants={rightAnimation}
+      >
+        <img src={Id4.photo} alt={Id4.title} />
+        <div className="paragraph">
+          <h1>{t(Id4.title)}</h1>
+          <h3>{t(Id4.subtitle)}</h3>
+          <p>{t(Id4.paragraph1)}<br />{t(Id4.paragraph2)}</p>
         </div>
       </motion.section>
 

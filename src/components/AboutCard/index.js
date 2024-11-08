@@ -5,8 +5,8 @@ import { Pagination } from 'swiper/modules';
 import 'swiper/css';
 import { motion } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
-import enAbout from '../../locales/en/about.json';
-import ptAbout from '../../locales/pt/about.json';
+import enAbout from '../../locales/en/aboutcard.json';
+import ptAbout from '../../locales/pt/aboutcard.json';
 
 function AboutCard() {
     const { i18n } = useTranslation();
