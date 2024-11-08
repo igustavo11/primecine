@@ -12,28 +12,25 @@ function About() {
       id: 1,
       photo: 'https://web.xpi.com.br/xp-new/wp-content/uploads/sites/18/2022/12/FII-bloco-1-1.png?w=1200&h=undefined&q=75',
       title: 'dreamBigTitle1',
-      subtitle: 'dreamBigSubtitle1',
       paragraph1: 'dreamBigParagraph1',
     },
     {
       id: 2,
       photo: 'https://web.xpi.com.br/xp-new/wp-content/uploads/sites/18/2022/12/FII-bloco-1-1.png?w=1200&h=undefined&q=75',
       title: 'dreamBigTitle2',
-      subtitle: 'dreamBigSubtitle2',
       paragraph1: 'dreamBigParagraph2',
     },
     {
       id: 3,
       photo: 'https://web.xpi.com.br/xp-new/wp-content/uploads/sites/18/2022/12/FII-bloco-1-1.png?w=1200&h=undefined&q=75',
       title: 'dreamBigTitle3',
-      subtitle: 'dreamBigSubtitle3',
       paragraph1: 'dreamBigParagraph3',
     },
     {
       id: 4,
       photo: 'https://web.xpi.com.br/xp-new/wp-content/uploads/sites/18/2022/12/FII-bloco-1-1.png?w=1200&h=undefined&q=75',
       title: 'dreamBigTitle4',
-      subtitle: 'dreamBigSubtitle4',
+      paragraph1: 'dreamBigParagraph4',
     },
   ];
   
