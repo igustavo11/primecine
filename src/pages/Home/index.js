@@ -24,11 +24,28 @@ function Home() {
                     <div className="content">
                         <h2 className="title">{t('prosperiumTitle')}</h2>
                         <p className="descriptionHome">{t('description')}</p>
-                        <Link className="contactHome" to="/team">{t('about')}</Link>
+
                     </div>
                 </div>
             </section>
 
+        <section className="experience-section">
+                <div className="experience-content">
+                <img 
+                src="https://via.placeholder.com/500" 
+                alt="icon" 
+                className="experience-image" 
+                />
+                <div className="experience-text">
+                <h2>Lorem <span>Lorem</span></h2>
+                <p>
+                    Exclusividade com o toque humano que você precisa. 
+                    Conte com um Carbon Partner e um assessor de investimentos.
+                </p>
+                <Link className="contactHome" to="/team">{t('about')}</Link>
+                </div>
+            </div>
+    </section>
             <section>
                 <HomeCard />
             </section>

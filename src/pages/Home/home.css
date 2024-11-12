@@ -63,6 +63,12 @@
     align-items: center;
     gap: 40px; 
 }
+.containerSection{
+    background-color: #000000;
+    display: flex;
+    align-items: center;
+    gap: 40px; 
+}
 
 .icon img {
     width: 100%; 
@@ -93,6 +99,65 @@
     margin-bottom: 20px;
     line-height: 1.6;
 }
+.experience-section {
+    background-color: #1f1f1f;
+    padding: 40px 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .experience-content {
+    display: flex;
+    align-items: center;
+    max-width: 1200px;
+    gap: 50px;
+    padding: 20px;
+   
+}
+  .experience-image {
+    border-radius: 12px;
+    max-width: 500px;
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  .experience-text {
+    color: #fff;
+    max-width: 500px;
+  }
+  
+  .experience-text h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .experience-text h2 span {
+    color: var(--color-primary); 
+  }
+  
+  .experience-text p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  .experience-button {
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 50px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .experience-button:hover {
+    background-color: var(--color-primary);
+    color: #1f1f1f;
+    border-color: var( --color-primary-var-1);
+  }
 
 @media (max-width: 768px) {
     .home-title {
@@ -105,14 +170,47 @@
     }
 
     .section {
-        flex-direction: column; 
-        padding: 30px 0; 
+        flex-direction: column;
+        padding: 30px 0;
     }
-   
 
     .container {
+        flex-direction: column; 
+        gap: 20px;
+        align-items: center; 
+        text-align: center; 
+    }
+
+    .containerSection {
+        flex-direction: column;
         gap: 20px;
     }
+
+    .experience-content{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .experience-image img{
+        width: 550px; 
+        max-width: 100%;
+        height: auto;
+       
+    }
+
+    .experience-text {
+        text-align: center; 
+        padding: 0 20px; 
+    }
+
+    .experience-text h2 {
+        font-size: 28px;
+    }
+
+    .experience-text p {
+        font-size: 16px;
+        line-height: 1.6; 
+    }
+    
 }
 
 @media (max-width: 480px) {
@@ -125,11 +223,30 @@
         padding: 8px 16px;
     }
 
+    .section {
+        padding: 20px 0; 
+    }
+
     .title {
-        font-size: 24px; 
+        font-size: 24px;
     }
 
     .descriptionHome {
-        font-size: 14px; 
+        font-size: 14px;
+    }
+
+    .experience-text h2 {
+        font-size: 24px;
+    }
+
+    .experience-text p {
+        font-size: 14px;
+        line-height: 1.4;
+    }
+
+    .experience-image {
+        max-width: 100%;
+        width: 380px; 
+        height: auto;
     }
 }
