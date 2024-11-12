@@ -3,14 +3,21 @@
     top: 0;
     left: 0;
     width: 50%;
-    height: 60vh; 
+    height: 60vh;
     display: flex;
-    align-items: center; 
+    align-items: center;
     z-index: 2;
     pointer-events: none;
-    padding-left: 20px; 
+    padding-left: 20px;
     margin-left: 30px;
 }
+.content-center {
+    text-align: center;
+    color: #fff;
+    z-index: 3;
+    pointer-events: all;
+}
+
 
 .content-left {
     text-align: left; 
