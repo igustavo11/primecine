@@ -2,7 +2,6 @@
     {
         "id": 1,
         "name": "Jean Nunes",
-        "position": "Director & Investment Committee",
         "biograph1": "Jean is a seasoned construction expert and visionary entrepreneur, with a rich background in managing large-scale projects and building successful ventures. With over a decade of experience, Jean has honed a unique blend of technical knowledge and strategic vision, allowing for the creation of high-quality, innovative spaces. Jean's dedication to excellence and a keen eye for detail have earned him a stellar reputation in the industry.",
         "biograph2": "As the founder of Força Builders, Jean is committed to pushing the boundaries of construction, integrating cutting-edge techniques with sustainable practices to deliver exceptional results. His forward-thinking approach not only transforms spaces but also creates lucrative opportunities for investors.",
         "biograph3": "Jean's vision for the founding company is to cultivate strong partnerships with investors who share a passion for innovative, profitable developments in the construction industry.",
@@ -11,7 +10,6 @@
     {
         "id": 2,
         "name": "Mario Daminhao",
-        "position": "Founder",
         "biograph1": "Known in the industry as Dr. Mortgage, with 25 years of experience in real estate financing, I am dedicated to helping clients successfully navigate the complexities of real estate investment.",
         "biograph2": "As a seasoned mortgage banker and real estate investor, I bring a wealth of expertise and insight to every client relationship, ensuring tailored strategies that align with their investment goals.",
         "biograph3": "Beyond my professional practice, I am also an accomplished author and keynote speaker at real estate gatherings, sharing my knowledge and passion for real estate development with audiences nationwide. My role as an anchor on a real estate TV show allows me to further educate and inspire others in the industry.",
@@ -21,7 +19,6 @@
     {
         "id": 3,
         "name": "Jefferson Oliveira",
-        "position": "Investment Committee",
         "biograph1": "Jefferson Oliveira is a dynamic entrepreneur with a solid background in Administration/Marketing and a postgraduate degree in Interior Design. He combines his marketing experience and strategic vision to transform opportunities into successful businesses.",
         "biograph2": "At Lit Capital, Jefferson plays a crucial role as Head of Business, operating on the front lines to attract strategic investments that drive innovative, high-impact projects.",
         "biograph3": "As a partner in successful companies such as Lit Trip, Ilha Imobiliária, and the podcast Na Prática, Jefferson has stood out as a true visionary, always seeking to expand boundaries and add value to the market.",
@@ -30,7 +27,6 @@
     {
         "id": 4,
         "name": "Victoria Alin",
-        "position": "Head, Shape Designs",
         "biograph1": "Victoria began her career as a creative, writing and art directing public relations materials. She then moved into advertising, working on packaged goods accounts including Procter & Gamble, H.J. Heinz, and Nabisco New Products. She was heavily involved in the agency’s future-focused strategic group, where she managed Victoria’s Secret initiatives and the development of travel marketing prospects, winning the British Virgin Islands account along the way.",
         "biograph2": "She then joined a fragrance house, directing worldwide fragrance activities for Procter & Gamble Fine Fragrances. She created a new capability—Insight and Innovation—presented widely in Europe and Asia, and contributed to the Color Marketing Group.",
         "biograph3": "Victoria went on to form a business conducting multi-sensory olfactory research. More recently, she co-developed a new venture—Coffee House 1420—which is now a successful operation.",

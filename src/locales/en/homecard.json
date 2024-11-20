@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "photo": "https://i.imgur.com/msTeaHE.jpeg",
+        "photo": "https://i.imgur.com/Uevtm5g.jpeg",
         "title": "Core Strategy",
         "paragraph": "Our strategy addresses the demands of the real estate market. We reimagine the development and management of multi-family residential buildings in the U.S. by focusing on:",
         "paragraph2": "Collaboration with Experts: Top-tier architects, engineers, and contractors focused on innovation and quality.",
@@ -10,7 +10,7 @@
     },
     {
         "id": 2,
-        "photo": "https://i.imgur.com/NXPmI1S.jpeg",
+        "photo": "https://i.imgur.com/uWPAZwN.jpeg",
         "title": "Investment Options",
         "paragraph": "We offer flexible investment opportunities:",
         "paragraph2": "Equity Investment: Ownership in projects, with gains from appreciation, rental income, and future sales profits.",
@@ -24,16 +24,7 @@
         "paragraph": "Target Return: We aim for a 20%+ IRR on all investments, ensuring significant growth.",
         "paragraph2": "Project Duration: Timelines of 24 to 36 months, depending on complexity, with adherence to deadlines and quality.",
         "paragraph4": "Risk Mitigation: Strategic planning and active oversight for predictable outcomes and investor capital protection."
-    },
-    {
-        "id": 4,
-        "photo": "https://i.imgur.com/ZQQc28Z.jpeg",
-        "title": "Investment Terms",
-        "paragraph": "Minimum Commitment: $250,000",
-        "paragraph2": "Management Fee: 1.5% of committed capital, aligned with project success.",
-        "paragraph3": "Performance Fee: 40% of profits after an 8% preferred return.",
-        "paragraph4": "Commitment Period: 5 years, with an option to extend by 2 years to maximize returns and ensure project completion."
-   
     }
+    
 
 ]

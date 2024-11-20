@@ -13,11 +13,11 @@
 }
 
 .header.about {
-    background-image: url('../../../src/teste2.jpg');
+    background-image: url('../../../src/img/about.jpg');
 }
 
 .header.team {
-    background-image: url('../../../src/teste2.jpg');
+    background-image: url('../../../src/img/teambanner.jpg');
 }
 
 .header.contact {

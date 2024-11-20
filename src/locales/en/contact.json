@@ -3,17 +3,12 @@
       "title": "Contact Us",
       "locations": [
         {
-          "name": "lorem| United States",
-          "address": "185 Lotrem St, 25th Fl.",
-          "city": "city 22",
-          "phone": "P: 917.558"
-        },
-        {
-          "name": "lorem| USA",
-          "address": "lorem 87",
-          "city": "Texas, usa2",
-          "phone": "P: 888.444.222"
+          "name": "United States",
+          "address": "144 Essex St, Rochelle Park.",
+          "city": "New Jersey",
+          "phone": "07662"
         }
+       
       ],
       "form": {
         "name": "Name",

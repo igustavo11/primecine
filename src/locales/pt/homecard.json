@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "photo": "https://i.imgur.com/msTeaHE.jpeg",
+        "photo": "https://i.imgur.com/Uevtm5g.jpeg",
         "title": "Estratégia Central",
         "paragraph": "Nossa estratégia aborda as demandas do mercado imobiliário. Reimaginamos o desenvolvimento e gestão de prédios residenciais multifamiliares nos EUA com:",
         "paragraph2": "Colaboração com Especialistas: Arquitetos, engenheiros e contratantes de alto nível, focados em inovação e qualidade.",
@@ -10,7 +10,7 @@
     },
     {
         "id": 2,
-        "photo": "https://i.imgur.com/NXPmI1S.jpeg",
+        "photo": "https://i.imgur.com/uWPAZwN.jpeg",
         "title": "Opções de investimento",
         "paragraph": "Oferecemos oportunidades de investimento flexíveis:",
         "paragraph2": "Equity Investment: Participação nos projetos, com ganhos pela valorização, renda de aluguéis e lucros de futuras vendas.",
@@ -24,14 +24,6 @@
         "paragraph": "Retorno-Alvo: Buscamos um IRR de 20%+ em todos os investimentos, garantindo crescimento significativo.",
         "paragraph2": "Duração dos Projetos: Prazos de 24 a 36 meses, dependendo da complexidade, com aderência a prazos e qualidade.",
         "paragraph4": "Mitigação de Riscos: Planejamento estratégico e supervisão ativa para resultados previsíveis e proteção do capital dos investidores."
-    },
-    {
-        "id": 4,
-        "photo": "https://i.imgur.com/ZQQc28Z.jpeg",
-        "title": "Termos de Investimento",
-        "paragraph": "Compromisso Mínimo: $250,000",
-        "paragraph2": "Taxa de Gestão: 1.5% do capital comprometido, alinhada ao sucesso dos projetos.",
-        "paragraph3": "Taxa de Performance: 40% dos lucros após um retorno preferencial de 8%.",
-        "paragraph4": "Período de Compromisso: 5 anos, com possibilidade de extensão por mais 2 anos para maximizar retornos e garantir a conclusão dos projetos."
     }
+  
 ]

@@ -28,7 +28,7 @@ function About() {
     },
     {
       id: 4,
-      photo: 'https://web.xpi.com.br/xp-new/wp-content/uploads/sites/18/2022/12/FII-bloco-1-1.png?w=1200&h=undefined&q=75',
+      photo: 'https://i.imgur.com/fvZPPFa.jpeg',
       title: 'dreamBigTitle4',
       paragraph1: 'dreamBigParagraph4',
     },

@@ -5,10 +5,11 @@
     width: 100%;
     height: 60vh; 
     display: flex;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
     z-index: 2;
     pointer-events: none;
+    margin-left: 250px;
 }
 
 .content-center {
@@ -19,7 +20,7 @@
 }
 
 .home-title {
-    font-size: 3rem;
+    font-size: 1rem;
     margin-bottom: 20px;
     color: #FFF;
 }
@@ -158,12 +159,26 @@
     color: #1f1f1f;
     border-color: var( --color-primary-var-1);
   }
+  @media (max-width: 1024px) {
+    .home-container1 {
+        height: 50vh;
+        margin-left: 0; 
+        justify-content: center; 
+    }
+    .content-center {
+        padding: 20px;
+    }
+    .experience-content {
+        flex-direction: column; 
+        gap: 30px;
+    }
+}
 
 @media (max-width: 768px) {
+ 
     .home-title {
-        font-size: 2.2rem;
+        font-size: 1rem;
     }
-
     .contactHome {
         font-size: 1rem;
         padding: 10px 20px;

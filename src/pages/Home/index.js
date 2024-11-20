@@ -1,8 +1,9 @@
 import './home.css';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import cardH from '../../casa.png'
 import HomeCard from '../../components/HomeCard';
+import home2 from '../../img/home.jpg'
+import homeImg from '../../img/home2.jpg'
 
 function Home() {
     const { t } = useTranslation('home');  
@@ -11,7 +12,7 @@ function Home() {
         <>
             <div className="home-container1">
                 <div className="content-center">
-                    <h1 className="home-title">{t('title')}</h1>
+                    <h3 className="home-title">{t('title')}</h3>
                     <Link className="contactHome" to="/contact">{t('learnMore')}</Link>
                 </div>
             </div>
@@ -19,7 +20,7 @@ function Home() {
             <section className="section">
                 <div className="container">
                     <div className="icon">
-                        <img src={cardH} alt="Icon" />
+                        <img src={home2} alt="Icon" />
                     </div>
                     <div className="content">
                         <h2 className="title">{t('prosperiumTitle')}</h2>
@@ -32,7 +33,7 @@ function Home() {
         <section className="experience-section">
                 <div className="experience-content">
                 <img 
-                src="https://via.placeholder.com/500" 
+                src={homeImg}
                 alt="icon" 
                 className="experience-image" 
                 />

@@ -7,6 +7,7 @@ import eua from '../../img/estados-unidos.png';
 import icone2 from '../../img/icone2.png';
 import vertical1 from '../../img/horizontal-3.png';
 
+
 function Header() {
     const [scrolling, setScrolling] = useState(false);
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -55,7 +56,17 @@ function Header() {
 
     return (
         <>
-            <header className={`header ${scrolling ? 'scrolled' : ''} ${location.pathname === '/' ? 'home' : location.pathname.slice(1)}`}>
+             <header
+            className={`header ${scrolling ? "scrolled" : ""} ${
+                location.pathname === "/" ? "home" : location.pathname.slice(1)
+            }`}
+        >
+            {location.pathname === "/" && (
+                <video autoPlay loop muted playsInline className="header-video">
+                    <source src="../../img/homepage.mp4" type="video/mp4" />
+                   
+                </video>
+            )}
                 <nav className={`navbar ${scrolling ? 'scrolled' : ''}`}>
                     
                     <div className="dropdown" onClick={() => setIsDropdownOpen(!isDropdownOpen)}>
