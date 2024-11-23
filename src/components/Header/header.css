@@ -1,4 +1,8 @@
-
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 .header {
     position: relative;
     height: 65vh;
@@ -7,9 +11,18 @@
     background-repeat: no-repeat;
     transition: height 0.3s ease; 
 }
+body {
+    overflow-x: hidden; 
+}
 
-.header.home {
-    background-image: url('../../../src/home.png');
+.header-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
 }
 
 .header.about {
@@ -43,7 +56,7 @@
     background-color: transparent; 
     z-index: 10;
     padding-left: 20px;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .navbar.scrolled {
@@ -61,6 +74,7 @@
     gap: 20px;
     transition: all 0.3s ease;
     margin-right: 20px;
+   
 }
 
 .nav-links a {
@@ -178,6 +192,8 @@
     align-items: center;
     color: #fff;
     background-color: var(--color-secondary);
+    margin-right: 200px;
+    
 }
 
 .dropdown:hover {
@@ -224,14 +240,18 @@
         display: flex;
     }
 
+    .nav-links.menu-open {
+        display: flex;
+    }
 
     .nav-links a {
-        font-size: 26px; 
-        padding: 10px 0; 
-        width: 100%; 
-        text-align: center; 
+        font-size: 26px;
+        padding: 10px 0;
+        width: 100%;
+        text-align: center;
     }
-    .logo-icon{
+
+    .logo-icon {
         width: 100px;
         height: auto;
         margin-left: -25px;

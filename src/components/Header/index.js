@@ -7,7 +7,6 @@ import eua from '../../img/estados-unidos.png';
 import icone2 from '../../img/icone2.png';
 import vertical1 from '../../img/horizontal-3.png';
 
-
 function Header() {
     const [scrolling, setScrolling] = useState(false);
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -18,7 +17,7 @@ function Header() {
 
     const toggleLanguage = (lang) => {
         i18n.changeLanguage(lang);
-        setIsDropdownOpen(false); 
+        setIsDropdownOpen(false);
     };
 
     const handleScroll = () => {
@@ -41,34 +40,52 @@ function Header() {
     }, []);
 
     useEffect(() => {
-       
         const updateLogo = () => {
             setLogo(window.innerWidth > 768 ? vertical1 : icone2);
         };
 
-        updateLogo(); 
-
+        updateLogo();
         const mediaQuery = window.matchMedia('(min-width: 769px)');
-        mediaQuery.addEventListener('change', updateLogo); 
+        mediaQuery.addEventListener('change', updateLogo);
 
         return () => mediaQuery.removeEventListener('change', updateLogo);
     }, []);
 
     return (
-        <>
-             <header
-            className={`header ${scrolling ? "scrolled" : ""} ${
-                location.pathname === "/" ? "home" : location.pathname.slice(1)
+        <header
+            className={`header ${scrolling ? 'scrolled' : ''} ${
+                location.pathname === '/' ? 'home' : location.pathname.slice(1)
             }`}
         >
-            {location.pathname === "/" && (
+            {location.pathname === '/' && (
                 <video autoPlay loop muted playsInline className="header-video">
-                    <source src="../../img/homepage.mp4" type="video/mp4" />
-                   
+                    <source src="https://i.imgur.com/iektmF2.mp4" type="video/mp4" />
                 </video>
             )}
-                <nav className={`navbar ${scrolling ? 'scrolled' : ''}`}>
-                    
+            <nav className={`navbar ${scrolling ? 'scrolled' : ''}`}>
+              
+                <Link className="logo" to="/">
+                    <img src={logo} alt="Logo" className="logo-icon" />
+                </Link>
+
+            
+                <div className={`nav-links ${isMenuOpen ? 'menu-open' : ''}`}>
+                    <span className="close-menu" onClick={closeMenu}>X</span>
+                    <div>
+                        <Link className={`home ${location.pathname === '/' ? 'active' : ''}`} to="/" onClick={closeMenu}>
+                            {t('home')}
+                        </Link>
+                        <Link className={`about ${location.pathname === '/about' ? 'active' : ''}`} to="/about" onClick={closeMenu}>
+                            {t('about')}
+                        </Link>
+                        <Link className={`team ${location.pathname === '/team' ? 'active' : ''}`} to="/team" onClick={closeMenu}>
+                            {t('team')}
+                        </Link>
+                        <Link className={`contact ${location.pathname === '/contact' ? 'active' : ''}`} to="/contact" onClick={closeMenu}>
+                            {t('contact')}
+                        </Link>
+                    </div>
+                    {!isMenuOpen && (
                     <div className="dropdown" onClick={() => setIsDropdownOpen(!isDropdownOpen)}>
                         <img
                             src={i18n.language === 'en' ? eua : brasil}
@@ -87,37 +104,20 @@ function Header() {
                             </div>
                         )}
                     </div>
+                )}
+                </div>
 
-                    <Link className="logo" to="/">
-                        <img src={logo} alt="Logo" className="logo-icon" />
-                    </Link>
+              
+               
 
-                    <div className={`nav-links ${isMenuOpen ? 'menu-open' : ''}`}>
-                        <span className="close-menu" onClick={closeMenu}>X</span>
-                        <div>
-                            <Link className={`home ${location.pathname === '/' ? 'active' : ''}`} to="/" onClick={closeMenu}>
-                                {t('home')}
-                            </Link>
-                            <Link className={`about ${location.pathname === '/about' ? 'active' : ''}`} to="/about" onClick={closeMenu}>
-                                {t('about')}
-                            </Link>
-                            <Link className={`team ${location.pathname === '/team' ? 'active' : ''}`} to="/team" onClick={closeMenu}>
-                                {t('team')}
-                            </Link>
-                            <Link className={`contact ${location.pathname === '/contact' ? 'active' : ''}`} to="/contact" onClick={closeMenu}>
-                                {t('contact')}
-                            </Link>
-                        </div>
-                    </div>
-
-                    <div className={`hamburger ${isMenuOpen ? 'open' : ''}`} onClick={toggleMenu}>
-                        <span className="bar"></span>
-                        <span className="bar"></span>
-                        <span className="bar"></span>
-                    </div>
-                </nav>
-            </header>
-        </>
+                {/* Ícone do menu responsivo */}
+                <div className={`hamburger ${isMenuOpen ? 'open' : ''}`} onClick={toggleMenu}>
+                    <span className="bar"></span>
+                    <span className="bar"></span>
+                    <span className="bar"></span>
+                </div>
+            </nav>
+        </header>
     );
 }
 

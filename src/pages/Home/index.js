@@ -5,6 +5,7 @@ import HomeCard from '../../components/HomeCard';
 import home2 from '../../img/home.jpg'
 import homeImg from '../../img/home2.jpg'
 
+
 function Home() {
     const { t } = useTranslation('home');  
 
