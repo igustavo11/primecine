@@ -110,7 +110,7 @@ function Header() {
               
                
 
-                {/* Ícone do menu responsivo */}
+                
                 <div className={`hamburger ${isMenuOpen ? 'open' : ''}`} onClick={toggleMenu}>
                     <span className="bar"></span>
                     <span className="bar"></span>
