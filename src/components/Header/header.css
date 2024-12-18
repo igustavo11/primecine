@@ -37,7 +37,6 @@ body {
     background-image: url('../../../src/teste1.jpg');
 }
 
-
 @media (max-width: 768px) {
     .header {
         height: 40vh;
@@ -68,13 +67,11 @@ body {
     margin-left: 200px;
 }
 
-
 .nav-links {
     display: flex;
     gap: 20px;
     transition: all 0.3s ease;
     margin-right: 20px;
-   
 }
 
 .nav-links a {
@@ -128,7 +125,6 @@ body {
     background-color: #000; 
 }
 
-
 .nav-links.menu-open {
     display: flex;
     position: fixed;
@@ -167,7 +163,6 @@ body {
     display: block;
 }
 
-
 .hamburger {
     display: none;
     flex-direction: column;
@@ -193,7 +188,7 @@ body {
     color: #fff;
     background-color: var(--color-secondary);
     margin-right: 200px;
-    
+    margin-bottom: 2px;
 }
 
 .dropdown:hover {
@@ -255,5 +250,12 @@ body {
         width: 100px;
         height: auto;
         margin-left: -25px;
+    }
+
+    .dropdown {
+        position: relative;
+        align-self: center;
+        margin-top: 20px;
+        margin-left: 200px;
     }
 }

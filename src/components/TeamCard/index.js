@@ -4,12 +4,9 @@ import { useTranslation } from 'react-i18next';
 import enTeam from '../../locales/en/team.json';
 import ptTeam from '../../locales/pt/team.json';
 
-import jefersonImage from '../../img/jeferson.png';
 
 
-const images = {
-    'jeferson.png': jefersonImage
-};
+
 
 function TeamCard() {
     const { i18n } = useTranslation();

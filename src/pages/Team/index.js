@@ -2,8 +2,7 @@ import './team.css';
 import TeamCard from '../../components/TeamCard';
 import { motion } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
-import enTeam from '../../locales/en/team.json';
-import ptTeam from '../../locales/pt/team.json';
+
 
 function Team() {
     const { t } = useTranslation(); 

@@ -63,12 +63,10 @@ function Header() {
                 </video>
             )}
             <nav className={`navbar ${scrolling ? 'scrolled' : ''}`}>
-              
                 <Link className="logo" to="/">
                     <img src={logo} alt="Logo" className="logo-icon" />
                 </Link>
 
-            
                 <div className={`nav-links ${isMenuOpen ? 'menu-open' : ''}`}>
                     <span className="close-menu" onClick={closeMenu}>X</span>
                     <div>
@@ -85,7 +83,6 @@ function Header() {
                             {t('contact')}
                         </Link>
                     </div>
-                    {!isMenuOpen && (
                     <div className="dropdown" onClick={() => setIsDropdownOpen(!isDropdownOpen)}>
                         <img
                             src={i18n.language === 'en' ? eua : brasil}
@@ -104,13 +101,8 @@ function Header() {
                             </div>
                         )}
                     </div>
-                )}
                 </div>
 
-              
-               
-
-                
                 <div className={`hamburger ${isMenuOpen ? 'open' : ''}`} onClick={toggleMenu}>
                     <span className="bar"></span>
                     <span className="bar"></span>
