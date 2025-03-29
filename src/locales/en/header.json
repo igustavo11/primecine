@@ -1,7 +1,9 @@
 {
-    "home": "Home",
-    "about": "About",
-    "team": "Team",
-    "contact": "Contact",
-    "changeLanguage": "Change Language"
+  "home": "Home",
+  "about": "About",
+  "team": "Team",
+  "projects": "Projects",
+  "contact": "Contact",
+  "changeLanguage": "Change Language",
+  "language": "Language"
 }

@@ -1,8 +1,25 @@
 {
-    "title": "Nossa paixão por imóveis é o segredo do seu sucesso",
-    "learnMore": "Saiba mais",
-    "prosperiumTitle": "Prosperium",
-    "description": "A Prosperum Investment Partners é uma empresa dinâmica de investimento e desenvolvimento imobiliário com foco estratégico em identificar, adquirir e desenvolver projetos imobiliários de alto valor. Nossa principal especialização está em propriedades residenciais multifamiliares, onde combinamos design inovador com métodos de construção sustentáveis. Usando materiais de ponta e técnicas modernas, garantimos que cada projeto que desenvolvemos atenda aos mais altos padrões de qualidade e desempenho.",
-    "about": "Sobre"
-  }
-  
+  "title": "Nossa paixão por imóveis é o segredo do seu sucesso",
+  "subtitle": "Transformando investimentos em oportunidades reais",
+  "learnMore": "Saiba mais",
+  "prosperiumTitle": "Prosperium",
+  "description": "A Prosperum Investment Partners é uma empresa dinâmica de investimento e desenvolvimento imobiliário com foco estratégico em identificar, adquirir e desenvolver projetos imobiliários de alto valor. Nossa principal especialização está em propriedades residenciais multifamiliares, onde combinamos design inovador com métodos de construção sustentáveis. Usando materiais de ponta e técnicas modernas, garantimos que cada projeto que desenvolvemos atenda aos mais altos padrões de qualidade e desempenho.",
+  "about": "Sobre",
+  "clients": "Clientes Satisfeitos",
+  "satisfaction": "Taxa de Satisfação",
+  "years": "Anos de Experiência",
+  "feature1": "Investimentos personalizados",
+  "feature2": "Estratégias inovadoras",
+  "feature3": "Equipe especializada",
+  "servicesTitle": "Nossos Serviços",
+  "servicesSubtitle": "Conheça nossas soluções para potencializar seus investimentos",
+  "ctaTitle": "Pronto para investir no seu futuro?",
+  "ctaSubtitle": "Entre em contato conosco e descubra como podemos ajudar a transformar seus objetivos em realidade.",
+  "contactUs": "Entre em contato",
+  "experienceTitle": "Experiência Premium",
+  "experienceHighlight": "Premium",
+  "experienceText": "Exclusividade com o toque humano que você precisa. Conte com um Carbon Partner e um assessor de investimentos dedicados ao seu sucesso financeiro.",
+  "typingText1": "Imóveis",
+  "typingText2": "Investimentos",
+  "typingText3": "Sucesso"
+}

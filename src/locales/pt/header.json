@@ -1,7 +1,9 @@
 {
-    "home": "Início",
-    "about": "Sobre",
-    "team": "Equipe",
-    "contact": "Contato",
-    "changeLanguage": "Mudar Idioma"
+  "home": "Início",
+  "about": "Sobre",
+  "team": "Equipe",
+  "projects": "Projetos",
+  "contact": "Contato",
+  "changeLanguage": "Mudar Idioma",
+  "language": "Idioma"
 }

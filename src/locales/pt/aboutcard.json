@@ -1,20 +1,20 @@
 [
-    {
-        "id": 1,
-        "title": "MISSÃO",
-        "paragraph": "A missão da Prosperum é oferecer retornos atrativos e ajustados ao risco para seus investidores por meio do desenvolvimento estratégico de imóveis.",
-        "photo": "https://images.squarespace-cdn.com/content/v1/631349e6c645d416c5f05d60/eeabbe03-e99b-4aac-bb15-7cc65ad61e69/3.png?format=750w"
-    },
-    {
-        "id": 2,
-        "title": "ESTRATÉGIA",
-        "paragraph": "A empresa foca em identificar ativos subutilizados, transformando-os em propriedades de alto desempenho e gerando resultados financeiros excepcionais.",
-        "photo": "https://images.squarespace-cdn.com/content/v1/631349e6c645d416c5f05d60/e5d10360-aaf6-4aa6-bb80-a53ecdcbd2b4/4.png?format=750w"
-    },
-    {
-        "id": 3,
-        "title": "PRINCÍPIOS",
-        "paragraph": "Seus princípios incluem a criação de valor, sustentabilidade e crescimento a longo prazo, com forte colaboração com arquitetos, contratantes e comunidades locais para garantir que os projetos atendam às expectativas dos investidores e beneficiem o entorno.",
-        "photo": "https://images.squarespace-cdn.com/content/v1/631349e6c645d416c5f05d60/e5d10360-aaf6-4aa6-bb80-a53ecdcbd2b4/4.png?format=750w"
-    }
+  {
+    "id": 1,
+    "title": "MISSÃO",
+    "paragraph": "A missão da Prosperum é oferecer retornos atrativos e ajustados ao risco para seus investidores por meio do desenvolvimento estratégico de imóveis.",
+    "photo": "https://images.squarespace-cdn.com/content/v1/631349e6c645d416c5f05d60/eeabbe03-e99b-4aac-bb15-7cc65ad61e69/3.png?format=750w"
+  },
+  {
+    "id": 2,
+    "title": "ESTRATÉGIA",
+    "paragraph": "A empresa foca em identificar ativos subutilizados, transformando-os em propriedades de alto desempenho e gerando resultados financeiros excepcionais.",
+    "photo": "https://images.squarespace-cdn.com/content/v1/631349e6c645d416c5f05d60/e5d10360-aaf6-4aa6-bb80-a53ecdcbd2b4/4.png?format=750w"
+  },
+  {
+    "id": 3,
+    "title": "PRINCÍPIOS",
+    "paragraph": "Nossos princípios são: criação de valor, sustentabilidade e crescimento a longo prazo, com forte colaboração entre parceiros para garantir projetos que atendam às expectativas dos investidores.",
+    "photo": "https://images.squarespace-cdn.com/content/v1/631349e6c645d416c5f05d60/e5d10360-aaf6-4aa6-bb80-a53ecdcbd2b4/4.png?format=750w"
+  }
 ]

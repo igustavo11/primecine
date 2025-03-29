@@ -1,42 +1,41 @@
 [
-    {
-        "id": 1,
-        "name": "Jean Nunes",
-        "biograph1": "Jean é um experiente especialista em construção e um empresário visionário, com um rico histórico em gerenciar projetos de grande escala e construir empreendimentos de sucesso. Com mais de uma década de experiência, Jean desenvolveu uma combinação única de conhecimento técnico e visão estratégica, permitindo a criação de espaços inovadores e de alta qualidade. A dedicação de Jean à excelência e seu olhar atento aos detalhes lhe renderam uma reputação estelar na indústria.",
-        "biograph2": "Como fundador da Força Builders, Jean está comprometido em expandir os limites da construção, integrando técnicas inovadoras com práticas sustentáveis para entregar resultados excepcionais. Sua abordagem visionária não apenas transforma espaços, mas também cria oportunidades lucrativas para investidores.",
-        "biograph3": "A visão de Jean para a empresa fundadora é cultivar parcerias sólidas com investidores que compartilham uma paixão por desenvolvimentos inovadores e lucrativos na indústria da construção.",
-        "photo": "https://images.squarespace-cdn.com/content/v1/631349e6c645d416c5f05d60/ab940540-5cb9-463f-88d6-c409772dc2ab/Lorenzo+Sargenti+Shape+Equity+Headshot.jpg?format=500w"
-    },
-    {
-        "id": 2,
-        "name": "Mario Daminhao",
-        "biograph1": "Conhecido na indústria como Dr. Mortgage, com 25 anos de experiência em financiamento imobiliário, estou dedicado a ajudar clientes a navegar com sucesso pelas complexidades do investimento imobiliário.",
-        "biograph2": "Como um experiente banqueiro hipotecário e investidor imobiliário, trago uma riqueza de expertise e conhecimento a cada relacionamento com clientes, garantindo estratégias personalizadas que se alinham com seus objetivos de investimento.",
-        "biograph3": "Além da minha prática profissional, sou também um autor e palestrante renomado em eventos imobiliários, compartilhando meu conhecimento e paixão pelo desenvolvimento imobiliário com públicos em todo o país. Meu papel como âncora em um programa de TV imobiliário me permite educar e inspirar ainda mais pessoas na indústria.",
-        "biograph4": "Se você é novo no investimento imobiliário ou está procurando expandir seu portfólio, minha compreensão abrangente e insights da indústria podem guiá-lo a alcançar suas aspirações imobiliárias.",
-        "photo": "https://images.squarespace-cdn.com/content/v1/631349e6c645d416c5f05d60/2c66ac29-70e3-4b96-ab3a-ef7f9e311b64/MPE_9500PrintDMDKR.jpg?format=1500w"
-    },
-    {
-        "id": 3,
-        "name": "Jefferson Oliveira",
-        "biograph1": "Jefferson Oliveira é um empreendedor dinâmico, com uma sólida formação em Administração/Marketing e pós-graduação em Design de Interiores. Ele combina sua experiência em marketing e visão estratégica para transformar oportunidades em negócios de sucesso.",
-        "biograph2": "Na Lit Capital, Jefferson desempenha um papel essencial como Head de Negócios, atuando na linha de frente para atrair investimentos estratégicos que impulsionam projetos inovadores e de alto impacto.",
-        "biograph3": "Sendo sócio também de empresas bem-sucedidas como Lit Trip, Ilha Imobiliária e o podcast Na Prática, Jefferson tem se destacado como um verdadeiro visionário, sempre buscando expandir fronteiras e agregar valor ao mercado.",
-        "photo": "https://i.imgur.com/jszTrqG.png"
-    },
-    {
-        "id": 4,
-        "name": "Victoria Alin",
-        "biograph1": "Victoria começou sua carreira como criativa, escrevendo e dirigindo materiais de relações públicas. Em seguida, ela se mudou para a publicidade, trabalhando em contas de bens de consumo embalados, incluindo Procter & Gamble, H.J. Heinz e Nabisco New Products. Ela esteve fortemente envolvida no grupo estratégico focado no futuro da agência, onde gerenciou iniciativas da Victoria's Secret e o desenvolvimento de perspectivas de marketing de viagens, ganhando a conta das Ilhas Virgens Britânicas ao longo do caminho.",
-        "biograph2": "Ela então se juntou a uma casa de fragrâncias, dirigindo atividades de fragrâncias em todo o mundo para Procter & Gamble Fine Fragrances. Ela criou uma nova capacidade—Insight and Innovation—amplamente apresentada na Europa e na Ásia, e contribuiu para o Color Marketing Group.",
-        "biograph3": "Victoria fundou um negócio de pesquisa olfativa multissensorial. Mais recentemente, ela co-desenvolveu uma nova empreitada—Coffee House 1420–que agora é uma operação bem-sucedida.",
-        "biograph4": "Victoria foi criada na Suíça, Bélgica e Itália. Ela frequentou o Wellesley College, La Sorbonne e a McGill University, no Canadá, onde recebeu um diploma em Marketing e Comunicações. Victoria é fascinada por culturas, música, dança e têxteis. Ela adora animais e faz trabalho voluntário em um abrigo de resgate de cães.",
-        "photo": "https://images.squarespace-cdn.com/content/v1/631349e6c645d416c5f05d60/c7f00538-5d92-4f2b-85a9-718bb63e938d/MPN_4224Print.jpg?format=1500w"
-    },
-    
-        {
-            "WelcomeMessage": "Welcome to Prosperium",
-            "team": "team"
-        }
-    
+  {
+    "id": 1,
+    "name": "Jean Nunes",
+    "biograph1": "Jean é um experiente especialista em construção e um empresário visionário, com um rico histórico em gerenciar projetos de grande escala e construir empreendimentos de sucesso. Com mais de uma década de experiência, Jean desenvolveu uma combinação única de conhecimento técnico e visão estratégica, permitindo a criação de espaços inovadores e de alta qualidade. A dedicação de Jean à excelência e seu olhar atento aos detalhes lhe renderam uma reputação estelar na indústria.",
+    "biograph2": "Como fundador da Força Builders, Jean está comprometido em expandir os limites da construção, integrando técnicas inovadoras com práticas sustentáveis para entregar resultados excepcionais. Sua abordagem visionária não apenas transforma espaços, mas também cria oportunidades lucrativas para investidores.",
+    "biograph3": "A visão de Jean para a empresa fundadora é cultivar parcerias sólidas com investidores que compartilham uma paixão por desenvolvimentos inovadores e lucrativos na indústria da construção.",
+    "photo": "https://images.squarespace-cdn.com/content/v1/631349e6c645d416c5f05d60/ab940540-5cb9-463f-88d6-c409772dc2ab/Lorenzo+Sargenti+Shape+Equity+Headshot.jpg?format=500w"
+  },
+  {
+    "id": 2,
+    "name": "Mario Daminhao",
+    "biograph1": "Conhecido na indústria como Dr. Mortgage, com 25 anos de experiência em financiamento imobiliário, estou dedicado a ajudar clientes a navegar com sucesso pelas complexidades do investimento imobiliário.",
+    "biograph2": "Como um experiente banqueiro hipotecário e investidor imobiliário, trago uma riqueza de expertise e conhecimento a cada relacionamento com clientes, garantindo estratégias personalizadas que se alinham com seus objetivos de investimento.",
+    "biograph3": "Além da minha prática profissional, sou também um autor e palestrante renomado em eventos imobiliários, compartilhando meu conhecimento e paixão pelo desenvolvimento imobiliário com públicos em todo o país. Meu papel como âncora em um programa de TV imobiliário me permite educar e inspirar ainda mais pessoas na indústria.",
+    "biograph4": "Se você é novo no investimento imobiliário ou está procurando expandir seu portfólio, minha compreensão abrangente e insights da indústria podem guiá-lo a alcançar suas aspirações imobiliárias.",
+    "photo": "https://images.squarespace-cdn.com/content/v1/631349e6c645d416c5f05d60/2c66ac29-70e3-4b96-ab3a-ef7f9e311b64/MPE_9500PrintDMDKR.jpg?format=1500w"
+  },
+  {
+    "id": 3,
+    "name": "Jefferson Oliveira",
+    "biograph1": "Jefferson Oliveira é um empreendedor dinâmico, com uma sólida formação em Administração/Marketing e pós-graduação em Design de Interiores. Ele combina sua experiência em marketing e visão estratégica para transformar oportunidades em negócios de sucesso.",
+    "biograph2": "Na Lit Capital, Jefferson desempenha um papel essencial como Head de Negócios, atuando na linha de frente para atrair investimentos estratégicos que impulsionam projetos inovadores e de alto impacto.",
+    "biograph3": "Sendo sócio também de empresas bem-sucedidas como Lit Trip, Ilha Imobiliária e o podcast Na Prática, Jefferson tem se destacado como um verdadeiro visionário, sempre buscando expandir fronteiras e agregar valor ao mercado.",
+    "photo": "https://i.imgur.com/jszTrqG.png"
+  },
+  {
+    "id": 4,
+    "name": "Victoria Alin",
+    "biograph1": "Victoria começou sua carreira como criativa, escrevendo e dirigindo materiais de relações públicas. Em seguida, ela se mudou para a publicidade, trabalhando em contas de bens de consumo embalados, incluindo Procter & Gamble, H.J. Heinz e Nabisco New Products. Ela esteve fortemente envolvida no grupo estratégico focado no futuro da agência, onde gerenciou iniciativas da Victoria's Secret e o desenvolvimento de perspectivas de marketing de viagens, ganhando a conta das Ilhas Virgens Britânicas ao longo do caminho.",
+    "biograph2": "Ela então se juntou a uma casa de fragrâncias, dirigindo atividades de fragrâncias em todo o mundo para Procter & Gamble Fine Fragrances. Ela criou uma nova capacidade—Insight and Innovation—amplamente apresentada na Europa e na Ásia, e contribuiu para o Color Marketing Group.",
+    "biograph3": "Victoria fundou um negócio de pesquisa olfativa multissensorial. Mais recentemente, ela co-desenvolveu uma nova empreitada—Coffee House 1420–que agora é uma operação bem-sucedida.",
+    "biograph4": "Victoria foi criada na Suíça, Bélgica e Itália. Ela frequentou o Wellesley College, La Sorbonne e a McGill University, no Canadá, onde recebeu um diploma em Marketing e Comunicações. Victoria é fascinada por culturas, música, dança e têxteis. Ela adora animais e faz trabalho voluntário em um abrigo de resgate de cães.",
+    "photo": "https://images.squarespace-cdn.com/content/v1/631349e6c645d416c5f05d60/c7f00538-5d92-4f2b-85a9-718bb63e938d/MPN_4224Print.jpg?format=1500w"
+  },
+
+  {
+    "WelcomeMessage": "Benvindo a Prosperium",
+    "team": "time"
+  }
 ]

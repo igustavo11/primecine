@@ -1,8 +1,25 @@
 {
-    "title": "Our passion for real estate is the secret to your succes",
-    "learnMore": "Learn more",
-    "prosperiumTitle": "Prosperium",
-    "description": "Prosperum Investment Partners is a dynamic real estate investment and development firm with a strategic focus on identifying, acquiring, and developing high-value real estate projects. Our primary expertise lies in multi-family residential properties, where we combine innovative design with sustainable construction methods. By employing cutting-edge materials and modern techniques, we ensure that every project we develop meets the highest standards of quality and performance.",
-    "about": "About"
-  }
-  
+  "title": "Our passion for real estate is the secret to your success",
+  "subtitle": "Transforming investments into real opportunities",
+  "learnMore": "Learn more",
+  "prosperiumTitle": "Prosperium",
+  "description": "Prosperum Investment Partners is a dynamic real estate investment and development firm with a strategic focus on identifying, acquiring, and developing high-value real estate projects. Our primary expertise lies in multi-family residential properties, where we combine innovative design with sustainable construction methods. By employing cutting-edge materials and modern techniques, we ensure that every project we develop meets the highest standards of quality and performance.",
+  "about": "About",
+  "clients": "Satisfied Clients",
+  "satisfaction": "Satisfaction Rate",
+  "years": "Years of Experience",
+  "feature1": "Customized investments",
+  "feature2": "Innovative strategies",
+  "feature3": "Specialized team",
+  "servicesTitle": "Our Services",
+  "servicesSubtitle": "Discover our solutions to enhance your investments",
+  "ctaTitle": "Ready to invest in your future?",
+  "ctaSubtitle": "Contact us and discover how we can help transform your goals into reality.",
+  "contactUs": "Contact us",
+  "experienceTitle": "Premium Experience",
+  "experienceHighlight": "Premium",
+  "experienceText": "Exclusivity with the human touch you need. Count on a Carbon Partner and an investment advisor dedicated to your financial success.",
+  "typingText1": "Real Estate",
+  "typingText2": "Investments",
+  "typingText3": "Success"
+}
