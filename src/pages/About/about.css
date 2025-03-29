@@ -20,6 +20,29 @@
 
 /* Banner principal */
 
+.home-container {
+  background-image: url(../../img/about.png);
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+.home-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+}
+
 .content-left {
   display: flex;
   flex-direction: column;
@@ -29,28 +52,23 @@
 }
 
 .content-center {
-  text-align: center;
+  text-align: left;
   color: white;
   padding: 30px;
   border-radius: 10px;
   z-index: 1;
-  max-width: 800px;
+  max-width: 1200px;
   position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 40px;
+  width: 100%;
 }
 
-.content-center::after {
-  content: "";
-  position: absolute;
-  bottom: -15px;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 80px;
-  height: 3px;
-  background-color: var(--secondary-color);
-}
 
 .home-title {
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: 700;
   margin-bottom: 1.5rem;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
@@ -58,12 +76,16 @@
   transition: all 0.3s ease;
   position: relative;
   z-index: 2;
+  text-align: left;
+  max-width: 600px;
+  margin-left: 200px;
 }
 
 /* Seção Nossos Pilares */
 .transition-paragraph {
-  padding: 5rem 2rem;
+  padding: 3rem 2rem 5rem;
   text-align: center;
+  margin-top: 0;
 }
 
 .transition-paragraph h1 {
@@ -361,13 +383,6 @@
   margin-right: 5px;
 }
 
-/* Estilização do header */
-.header.about {
-  background-image: url("../../../src/img/about.png");
-  background-size: cover;
-  background-position: center;
-}
-
 /* Responsividade */
 @media (max-width: 1200px) {
   .description-about1,
@@ -382,17 +397,17 @@
   }
 
   .home-title {
-    font-size: 2.5rem;
+    margin-left: 150px;
   }
 }
 
 @media (max-width: 992px) {
   .home-container {
-    height: 70vh;
+    height: 50vh;
   }
 
   .home-title {
-    font-size: 2.2rem;
+    margin-left: 100px;
   }
 
   .description-about1,
@@ -414,12 +429,21 @@
 
 @media (max-width: 768px) {
   .home-container {
-    height: 60vh;
+    height: 50vh;
+    padding: 0;
+  }
+  
+  .content-center {
+    margin-left: 0;
+    padding: 20px;
+    width: 100%;
+    align-items: center;
   }
 
   .home-title {
-    font-size: 2rem;
-    padding: 0 15px;
+    margin-left: 0;
+    width: 100%;
+    text-align: center;
   }
 
   .description-about1,
@@ -480,8 +504,15 @@
   }
 
   .home-title {
-    font-size: 1.7rem;
-    padding: 0 10px;
+    margin-left: 0;
+    width: 100%;
+    text-align: center;
+  }
+
+  .content-center {
+    padding: 15px;
+    margin-left: 0;
+    width: 100%;
   }
 
   .description-about1 img,
@@ -512,11 +543,16 @@
   }
 
   .home-title {
-    font-size: 1.5rem;
+    margin-left: 0;
+    line-height: 1.4;
+    width: 100%;
+    text-align: center;
   }
 
   .content-center {
-    padding: 20px 10px;
+    padding: 15px;
+    margin-left: 0;
+    width: 100%;
   }
 }
 

@@ -344,7 +344,7 @@
   font-size: 2.5rem;
   font-weight: 700;
   margin-bottom: 20px;
-  color: #333;
+  color: var(--color-secondary);
 }
 
 .services-header p {
@@ -358,8 +358,8 @@
   padding: 100px 0;
   background: linear-gradient(
     to right,
-    var(--color-primary),
-    var(--color-primary-dark, #006699)
+    var(--color-secondary-var1),
+    var(--color-secondary-var2)
   );
   color: white;
   text-align: center;

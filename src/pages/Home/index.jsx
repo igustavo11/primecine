@@ -94,7 +94,7 @@ function Home() {
                 <span>{t("experienceHighlight")}</span>
               </h2>
               <p>{t("experienceText")}</p>
-              <Link className="inverted-button" to="/team">
+              <Link className="inverted-button" to="/about">
                 {t("about")}
               </Link>
             </div>

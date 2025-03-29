@@ -78,7 +78,7 @@ function About() {
 
   return (
     <>
-      <div className="home-container">
+      <div className="home-container" style={{ marginTop: 0 }}>
         <div className="content-center">
           <motion.h3
             className="home-title"

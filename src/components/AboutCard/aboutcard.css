@@ -67,7 +67,7 @@
 }
 
 .pillar-card h2 {
-  color: #32583a;
+  color: var(--color-secondary);
   font-size: 1.3rem;
   margin-bottom: 0.8rem;
   font-weight: 700;

@@ -5,8 +5,8 @@ import { useTranslation } from "react-i18next";
 import { motion, AnimatePresence } from "framer-motion";
 import brasil from "../../img/brasil.png";
 import eua from "../../img/estados-unidos.png";
-import icone2 from "../../img/icone2.png";
-import vertical1 from "../../img/horizontal-3.png";
+import icone2 from "../../img/icon.png";
+import vertical1 from "../../img/logoP.png";
 import {
   Home,
   Folder,
@@ -65,7 +65,7 @@ function Header() {
   const menuItems = [
     { path: "/", icon: <Home size={18} />, label: t("home") },
     { path: "/about", icon: <Info size={18} />, label: t("about") },
-    { path: "/team", icon: <Folder size={18} />, label: t("team") },
+    { path: "/portifolio", icon: <Folder size={18} />, label: t("portifolio") },
     { path: "/contact", icon: <Contact size={18} />, label: t("contact") },
   ];
 
